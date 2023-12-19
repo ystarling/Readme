@@ -96,10 +96,10 @@
    - code challenge -thinking simply not complex. Rest apis> dont use Feign! use WebClient!
    - time complexity Big On, https://aaronice.gitbook.io/lintcode/linked_list. [[link](https://flexiple.com/algorithms/big-o-notation-cheat-sheet/)]
    - https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html
-   - code refactoring how to?
+   - code refactoring how to? understandable, readable, structured, documented
    - TDD
    - Naming unit test. [UnitOfWork_StateUnderTest_ExpectedBehavior], Sum_NegativeNumberAs1stParam_ExceptionThrown().
-   - UML, https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/#:~:text=Aggregation%20implies%20a%20relationship%20where,exist%20independent%20of%20the%20parent.
+   - UML, [[link](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/#:~:text=Aggregation%20implies%20a%20relationship%20where,exist%20independent%20of%20the%20parent)].
 10. CI/CD
     - feature toggle, how to manage if one main branch
     - git flow? what is trunk base? main branch etc.
@@ -112,7 +112,7 @@
     - what was your last task you working on?
     - Scrum pocker
 13. Code challenges
-    - d
+    - etc
 14. etc
 15. etc
 
