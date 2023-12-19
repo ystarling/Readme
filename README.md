@@ -37,7 +37,7 @@
    - GoF patterns
      - Remember most usage patterns: Strategy(lambda!), Observer, Decorator, Iterator, Builder.
      - BandOf4 patterns? what you use? Observer, Proxy, Iterator vs Iterable? Adapter, Decorator, Facade.
-     - Decorator pattern(structural), decor. https://medium.com/analytics-vidhya/simplify-strategy-using-lambda-expression-40195d1445ea
+     - Decorator pattern(structural), decor. [[link](https://medium.com/analytics-vidhya/simplify-strategy-using-lambda-expression-40195d1445ea)]
    - SOLID
      - Liskov = The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application.
      - Dependency inversion = High level modules should not depend upon low level. Everything should be dependent on abstraction.
@@ -61,7 +61,7 @@
    - sql joins, group by, avg() >, departments & employees salary [[link1](https://sqlbolt.com/)] [[link2](https://www.youtube.com/watch?v=d-SJmsgoUrw&ab_channel=CrackConcepts)]
    - SQL update script, ALTER TABLE table_name ADD column_name datatype;
    - Answer for question: How to change DB tables in the running environment? (manually without Liquibase)
-   - Isolation levels from lowest to highest are Read Uncommitted, Read Committed, Repeatable Read, and Serializable. [[link] (https://jetherrodrigues.dev.br/transaction-management-in-the-spring-framework-996d700f1f27)]
+   - Isolation levels from lowest to highest are Read Uncommitted, Read Committed, Repeatable Read, and Serializable. [[link](https://jetherrodrigues.dev.br/transaction-management-in-the-spring-framework-996d700f1f27)]
 4. ORM
    - JPA vs Hibernate, more then one difference?
    - Lazy loading JPA/Hibernate
@@ -70,9 +70,9 @@
    - Jpa entity states: New, Managed, Detached(when Session closed), Removed.
    - Cache L1, L2, query cache in JPA
    - N + 1 problem?
-   - JPA relationship 1-n, n-1, @Entity, other annotation links tables? department-employee. [[link](https://medium.com/thefreshwrites/manytoone-onetomany-mapping-in-jpa-32581d3c0f8a)], [[link] (https://www.baeldung.com/jpa-one-to-one)], [[link] (https://www.tutorialspoint.com/jpa/jpa_entity_relationships.htm)]
+   - JPA relationship 1-n, n-1, @Entity, other annotation links tables? department-employee. [[link](https://medium.com/thefreshwrites/manytoone-onetomany-mapping-in-jpa-32581d3c0f8a)], [[link](https://www.baeldung.com/jpa-one-to-one)], [[link](https://www.tutorialspoint.com/jpa/jpa_entity_relationships.htm)]
    - Opimistic lock? jpa, hibernate, entity stages, detached? Transient(Created), Managed, Detached, Removed
-   - Liquibase vs Flyway, changelogs. Flyway uses SQL-based migration scripts, whereas. Liquibase uses XML, YAML, or JSON to define the database changes. https://www.linkedin.com/pulse/database-migration-flyway-vs-liquibase-rafael-porto-rodrigues#:~:text=Configuration%3A%20Flyway%20follows%20a%20convention,to%20define%20the%20database%20changes.
+   - Liquibase vs Flyway, changelogs. Flyway uses SQL-based migration scripts, whereas. Liquibase uses XML, YAML, or JSON to define the database changes. [[link](https://www.linkedin.com/pulse/database-migration-flyway-vs-liquibase-rafael-porto-rodrigues#:~:text=Configuration%3A%20Flyway%20follows%20a%20convention,to%20define%20the%20database%20changes.)]
    - Hibernate audited, @Audited - generate table with suffix table_aud
 5. REST
    - Rest vs Soap
@@ -82,7 +82,7 @@
 6. Microservices
    - Event driven communication vs REST, when to use?
    - how did you specify the boundaries of your microservices. [[link](https://blog.bitsrc.io/how-to-choose-microservices-boundaries-5c68b0b1af24)], [[link](https://nathanpeck.com/making-microservice-boundaries-that-you-wont-regret/)], [[link](https://codeburst.io/microservice-boundaries-five-characteristics-to-guide-your-design-89312b65cc27)] , [[link](https://www.linkedin.com/advice/0/how-do-you-identify-boundaries-microservices-from)], [[link](https://www.linkedin.com/advice/3/how-do-you-set-microservice-boundaries-skills-software-design#:~:text=One%20of%20the%20first%20steps,inventory%20management%2C%20or%20payment%20processing.)] , [[link](https://www.oreilly.com/library/view/microservices-up-and/9781492075448/ch04.html)] , [[link](https://www.lokajittikayatray.com/post/how-to-define-your-microservices-correctly)]
-   - fault tolerant approach, Bulkhead pattern, Circuit Breaker. https://www.codecentric.de/wissens-hub/blog/resilience-design-patterns-retry-fallback-timeout-circuit-breaker, https://www.youtube.com/watch?v=ADHcBxEXvFA&ab_channel=DefogTech, https://quickbooks-engineering.intuit.com/resiliency-two-alternatives-for-fault-tolerance-to-deprecated-hystrix-de58870a8c3f, 
+   - fault tolerant approach, Bulkhead pattern, Circuit Breaker. [[link](https://www.codecentric.de/wissens-hub/blog/resilience-design-patterns-retry-fallback-timeout-circuit-breaker)], [[link](https://www.youtube.com/watch?v=ADHcBxEXvFA&ab_channel=DefogTech)], [[link](https://quickbooks-engineering.intuit.com/resiliency-two-alternatives-for-fault-tolerance-to-deprecated-hystrix-de58870a8c3f)]
    - 
 7. Docker
    - What is docker container itself?
@@ -94,7 +94,7 @@
 9. Clean Code and Uncle Bob, Craftmanship
    - code refactoring how to? Better organization, Less code duplication, Easier maintenance, understandable, readable, structured, documented
    - code challenge -thinking simply not complex. Rest apis> dont use Feign! use WebClient!
-   - time complexity Big On, https://aaronice.gitbook.io/lintcode/linked_list. [[link](https://flexiple.com/algorithms/big-o-notation-cheat-sheet/)]
+   - time complexity Big On, [[link](https://aaronice.gitbook.io/lintcode/linked_list)], [[link](https://flexiple.com/algorithms/big-o-notation-cheat-sheet/)]
    - https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html
    - TDD
    - Naming unit test. [UnitOfWork_StateUnderTest_ExpectedBehavior], Sum_NegativeNumberAs1stParam_ExceptionThrown().
