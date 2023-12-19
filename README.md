@@ -52,6 +52,8 @@
        - Stereotypes?
        - @Transactional, Proxy?
        - Spring Actuator - production ready features (health check, metrics)
+   - Elasticsearch
+   - etc
 4. DATABASE
    - NoSql vs RDBMs, NoSQL(high velocity-speed, high handle volume data). [[link](https://www.geeksforgeeks.org/difference-between-relational-database-and-nosql/)]
    - ACID, transaction, isolation levels, anomalies, indexes?
