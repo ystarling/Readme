@@ -77,7 +77,7 @@
 5. REST
    - Rest vs Soap
    - idempotent, [[link](https://restfulapi.net/idempotent-rest-apis/)]
-   - Rest header, body, query parameters
+   - Rest header, body, query parameters, content-type?
    - 
 6. Microservices
    - Event driven communication vs REST, when to use?
