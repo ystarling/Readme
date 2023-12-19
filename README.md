@@ -33,7 +33,6 @@
      - implement Comparable, or anonymous class Comparator
      - Iterator used for change mutable objects like created by List.of
    - Java 11 vs 17, Text blocks """text""", Records, S.toList() instead of S.collect(Collectors.toList())
-   - DDD
    - GoF patterns
      - Remember most usage patterns: Strategy(lambda!), Observer, Decorator, Iterator, Builder.
      - BandOf4 patterns? what you use? Observer, Proxy, Iterator vs Iterable? Adapter, Decorator, Facade.
@@ -99,6 +98,8 @@
    - TDD
    - Naming unit test. [UnitOfWork_StateUnderTest_ExpectedBehavior], Sum_NegativeNumberAs1stParam_ExceptionThrown().
    - UML, [[link](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/#:~:text=Aggregation%20implies%20a%20relationship%20where,exist%20independent%20of%20the%20parent)].
+   - Composition =has-a relationship between objects. relationship where the child cannot exist independent of the parent.
+   - Aggregation= relationship where the child can exist independently of the parent.
 10. CI/CD
     - feature toggle, how to manage if one main branch
     - git flow? what is trunk base? main branch etc.
