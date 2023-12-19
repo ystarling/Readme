@@ -9,13 +9,13 @@
      - Lambda, Anonymous classes
      - anonymous function, lambda, functional interface, default methods, do you know any functional methods?
      - Immutable class? class final, private final members, initialise everything in constructor, deep copy, no setters! 
-     - JVM inside, class loaders, rt.jar, bootstrap. https://medium.com/geekculture/java-backend-developer-interview-questions-pt-1-10-1c74c76442bd
+     - JVM inside, class loaders, rt.jar, bootstrap. [[link](https://medium.com/geekculture/java-backend-developer-interview-questions-pt-1-10-1c74c76442bd)]
      - Funtional interfaces java, purpose, examples? single abstract method, to avoid boilerplate using anonymous classes, Consumer, Predicate, Function, Supplier.
      - Garbage collector, Memory management, memory allocate. heap=objects, permgen(metaspace):classes, static, string pool. stack: primitive objects, references. [[link](https://diptendud.medium.com/java-memory-management-interview-questions-and-answers-204d7a249019)]
      - class Objects.
    - Streams
      - aggregation functions [[link text itself](https://docs.google.com/document/d/1WO14-WGX7cPbBIZtQhvawQiXZKeFHCPIrJp_06EvnLA/edit)]
-     - repeat Streams, map, multiply, reduce, groupby, summarise, max, min, Function interfaces? [[link](https://www.youtube.com/watch?v=o1H6kMlCQ74&ab_channel=Bobocode)], [[link] (https://medium.com/swlh/java-collectors-and-its-20-methods-2fc422920f18)]
+     - repeat Streams, map, multiply, reduce, groupby, summarise, max, min, Function interfaces? [[link](https://www.youtube.com/watch?v=o1H6kMlCQ74&ab_channel=Bobocode)], [[link](https://medium.com/swlh/java-collectors-and-its-20-methods-2fc422920f18)]
    - Threads
      - Singleton class
      - Thread safe, DeadLock?
