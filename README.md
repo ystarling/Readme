@@ -102,6 +102,7 @@
    - UML, [[link](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/#:~:text=Aggregation%20implies%20a%20relationship%20where,exist%20independent%20of%20the%20parent)].
    - Composition =has-a relationship between objects. relationship where the child cannot exist independent of the parent.
    - Aggregation= relationship where the child can exist independently of the parent.
+   - DDD [[link](https://medium.com/microtica/the-concept-of-domain-driven-design-explained-3184c0fd7c3f)]
 10. CI/CD
     - feature toggle, how to manage if one main branch
     - git flow? what is trunk base? main branch etc.
