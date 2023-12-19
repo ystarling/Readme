@@ -85,7 +85,7 @@
    - fault tolerant approach, Bulkhead pattern, Circuit Breaker. [[link](https://www.codecentric.de/wissens-hub/blog/resilience-design-patterns-retry-fallback-timeout-circuit-breaker)], [[link](https://www.youtube.com/watch?v=ADHcBxEXvFA&ab_channel=DefogTech)], [[link](https://quickbooks-engineering.intuit.com/resiliency-two-alternatives-for-fault-tolerance-to-deprecated-hystrix-de58870a8c3f)]
    - 
 7. Docker
-   - What is docker container itself?
+   - What is docker container itself? [[link](https://www.docker.com/resources/what-container/#:~:text=A%20Docker%20container%20image%20is,tools%2C%20system%20libraries%20and%20settings.)]
    - Docker networking?, Docker swarm, compose? how to expose or open service connection outside?
 8. K8s
    - K8s question: if your service in K8s is down what is your step to do? service describe, readiness probe.
