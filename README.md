@@ -106,6 +106,11 @@
    - Composition =has-a relationship between objects. relationship where the child cannot exist independent of the parent.
    - Aggregation= relationship where the child can exist independently of the parent.
    - DDD [[link](https://medium.com/microtica/the-concept-of-domain-driven-design-explained-3184c0fd7c3f)]
+      - The primary focus of the project is the core domain and domain logic. A domain consists of several subdomains that refer to different parts of the business logic. For example, an online retail store could have a product catalog, inventory, and delivery as its subdomains. Bounded contexts actually represent boundaries in which a certain subdomain is defined and applicable. specific bounded context, configuration, and dependencies.
+      - Domain-driven design is a software engineering approach to solving a specific domain model. The solution circles around the business model by connecting execution to the key business principles.
+Common terminology between the domain experts and the development team includes domain logic, subdomains, bounded contexts, context maps, domain models, and ubiquitous language as a way of collaborating and improving the application model and solving any domain-related challenges.
+      - Microservices offer some serious advantages over traditional architectures, providing scalability, accessibility, and flexibility. Moreover, this approach keeps developers focused as each microservice is a loosely coupled service with a single idea of accountability.
+
 10. CI/CD
     - feature toggle, how to manage if one main branch
     - git flow? what is trunk base? main branch etc.
