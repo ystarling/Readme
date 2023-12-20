@@ -126,6 +126,7 @@ Common terminology between the domain experts and the development team includes 
     - feature toggle, how to manage if one main branch
     - git flow? what is trunk base? main branch etc.
     - CI/CD how it? ArgoCD, Octopus deploy, GitLab
+    - Github Actions, [[link](https://docs.github.com/en/actions/quickstart)], [[link](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)]
 12. Linux
     - how to remote connect in Linux/Unix, SSH command? most common list commands
     - 
