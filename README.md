@@ -115,22 +115,28 @@
       - Domain-driven design is a software engineering approach to solving a specific domain model. The solution circles around the business model by connecting execution to the key business principles.
 Common terminology between the domain experts and the development team includes domain logic, subdomains, bounded contexts, context maps, domain models, and ubiquitous language as a way of collaborating and improving the application model and solving any domain-related challenges.
       - Microservices offer some serious advantages over traditional architectures, providing scalability, accessibility, and flexibility. Moreover, this approach keeps developers focused as each microservice is a loosely coupled service with a single idea of accountability.
-
-10. CI/CD
+      - subject, 
+10. Design
+    - Spotify, music streaming [[link](https://www.youtube.com/watch?v=_K-eupuDVEc&ab_channel=IGotAnOffer%3AEngineering)]
+    - Amazon System Design Interview: Design Parking Garage, [[link](https://www.youtube.com/watch?v=NtMvNh0WFVM&ab_channel=Exponent)]
+    - Design Url Shortening Service, [[link](https://youtu.be/eCLqmPBIEYs?t=709)], [[link](https://www.designgurus.io/blog/url-shortening)], [[link](https://www.geeksforgeeks.org/system-design-url-shortening-service/)], [[link](https://medium.com/@sandeep4.verma/system-design-scalable-url-shortener-service-like-tinyurl-106f30f23a82)], [[link](https://www.youtube.com/watch?v=CihfMVePlcQ&ab_channel=CachedInsights)]
+    - etc
+    - 
+11. CI/CD
     - feature toggle, how to manage if one main branch
     - git flow? what is trunk base? main branch etc.
     - CI/CD how it? ArgoCD, Octopus deploy, GitLab
-11. Linux
+12. Linux
     - how to remote connect in Linux/Unix, SSH command? most common list commands
     - 
-12. Agile
+13. Agile
     - How are you start working on task? Jira, Task, Epic, User story, Scram, Kanban.
     - what was your last task you working on?
     - Scrum pocker
-13. Code challenges
+14. Code challenges
     - etc
-14. etc
 15. etc
+16. 
 
 
     
