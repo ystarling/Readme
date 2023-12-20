@@ -131,7 +131,7 @@ Common terminology between the domain experts and the development team includes 
     - how to remote connect in Linux/Unix, SSH command? most common list commands
     - 
 13. Agile
-    - How are you start working on task? Jira, Task, Epic, User story, Scram, Kanban.
+    - How are you start working on task? Jira, Task, Epic, User story, Scram, Kanban. Retrospective, Backlog, Sprint planning, short iteration.
     - what was your last task you working on?
     - Scrum pocker
     - Squads, [[link](https://engineering.atspotify.com/2014/03/spotify-engineering-culture-part-1/)], [[link](https://vimeo.com/85490944)]
