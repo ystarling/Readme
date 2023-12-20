@@ -89,6 +89,7 @@
    - 
 7. Docker
    - What is docker container itself? [[link](https://www.docker.com/resources/what-container/#:~:text=A%20Docker%20container%20image%20is,tools%2C%20system%20libraries%20and%20settings.)]
+      - A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
    - Docker networking?, Docker swarm, compose? how to expose or open service connection outside?
 8. K8s
    - K8s question: if your service in K8s is down what is your step to do? service describe, readiness probe.
