@@ -37,6 +37,7 @@
      - Remember most usage patterns: Strategy(lambda!), Observer, Decorator, Iterator, Builder.
      - BandOf4 patterns? what you use? Observer, Proxy, Iterator vs Iterable? Adapter, Decorator, Facade.
      - Decorator pattern(structural), decor. [[link](https://medium.com/analytics-vidhya/simplify-strategy-using-lambda-expression-40195d1445ea)]
+     - https://refactoring.guru/
    - SOLID
      - Liskov = The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application.
      - Dependency inversion = High level modules should not depend upon low level. Everything should be dependent on abstraction.
