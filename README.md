@@ -133,7 +133,7 @@ Common terminology between the domain experts and the development team includes 
     - How are you start working on task? Jira, Task, Epic, User story, Scram, Kanban.
     - what was your last task you working on?
     - Scrum pocker
-    - Squad, [[link](https://engineering.atspotify.com/2014/03/spotify-engineering-culture-part-1/)], [[link](https://vimeo.com/85490944)]
+    - Squads, [[link](https://engineering.atspotify.com/2014/03/spotify-engineering-culture-part-1/)], [[link](https://vimeo.com/85490944)]
 14. Code challenges
     - etc
 15. etc
