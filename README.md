@@ -65,6 +65,7 @@
    - SQL update script, ALTER TABLE table_name ADD column_name datatype;
    - Answer for question: How to change DB tables in the running environment? (manually without Liquibase)
    - Isolation levels from lowest to highest are Read Uncommitted, Read Committed, Repeatable Read, and Serializable. [[link](https://jetherrodrigues.dev.br/transaction-management-in-the-spring-framework-996d700f1f27)]
+   - Postrges default isolation level. Explain what this isolation means?
 4. ORM
    - JPA vs Hibernate, more then one difference?
    - Lazy loading JPA/Hibernate
