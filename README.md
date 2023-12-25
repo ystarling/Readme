@@ -11,7 +11,10 @@
      - Immutable class? class final, private final members, initialise everything in constructor, deep copy, no setters! 
      - JVM inside, class loaders, rt.jar, bootstrap. [[link](https://medium.com/geekculture/java-backend-developer-interview-questions-pt-1-10-1c74c76442bd)]
      - Funtional interfaces java, purpose, examples? single abstract method, to avoid boilerplate using anonymous classes, Consumer, Predicate, Function, Supplier.
-     - Garbage collector, Memory management, memory allocate. heap=objects, permgen(metaspace):classes, static, string pool. stack: primitive objects, references. [[link](https://diptendud.medium.com/java-memory-management-interview-questions-and-answers-204d7a249019)]
+     - Garbage collector, Memory management, memory allocate. tuning GC1
+       heap=objects,
+       permgen(metaspace):classes, static, string pool.
+       stack: primitive objects, references. [[link](https://diptendud.medium.com/java-memory-management-interview-questions-and-answers-204d7a249019)]
      - class Objects.
    - Streams
      - aggregation functions [[link text itself](https://docs.google.com/document/d/1WO14-WGX7cPbBIZtQhvawQiXZKeFHCPIrJp_06EvnLA/edit)]
