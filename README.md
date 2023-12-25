@@ -60,6 +60,9 @@
        - Stereotypes?
        - @Transactional, Proxy?
        - Spring Actuator - production ready features (health check, metrics)
+       - ReflectionUtils
+       - Paging, Sorting
+       - @Patch, [[link](https://www.youtube.com/watch?v=UB71ARdhS78&ab_channel=AlmightyJava)]
    - Elasticsearch
    - etc
 4. DATABASE
