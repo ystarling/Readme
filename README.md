@@ -44,6 +44,7 @@
      - Interface sagregation = “Clients should not be forced to depend upon interfaces that they do not use.” By following this principle, you prevent bloated interfaces that define methods for multiple responsibilities. Split one interface to more with specific responsibilities.
    - IntelijIDEA shortcuts repeat!
    - etc
+   - Kotlin vs Java, syntax, null safety, functional programming
 
 3. SPRING
    - Spring vs SpringBoot
