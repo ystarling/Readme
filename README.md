@@ -5,7 +5,8 @@
    - Core
      - Abstract class vs Interfaces, why and when to use? Abstract class vs Interfaces where better to use?
      - loose coupling & high cohesion
-     - Equals & HashCode, hashCode & equals contract? busket 1, 2, hashcode collision, `if two objects equal then hashcode should be the same`, [[link](https://medium.com/coding-corpus/java-important-methods-equals-hashcode-and-compareto-6adcdf2814c3)]
+     - Equals & HashCode, hashCode & equals contract? busket 1, 2, hashcode collision.
+       `if two objects equal then hashcode should be the same`, [[link](https://medium.com/coding-corpus/java-important-methods-equals-hashcode-and-compareto-6adcdf2814c3)]
      - Lambda, Anonymous classes
      - anonymous function, lambda, functional interface, default methods, do you know any functional methods?
      - Immutable class? class final, private final members, initialise everything in constructor, deep copy, no setters! 
