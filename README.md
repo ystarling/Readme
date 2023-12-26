@@ -72,7 +72,7 @@
    - SQL queries [[link](https://docs.google.com/document/d/1WO14-WGX7cPbBIZtQhvawQiXZKeFHCPIrJp_06EvnLA/edit)]
    - sql joins, group by, avg() >, departments & employees salary [[link1](https://sqlbolt.com/)] [[link2](https://www.youtube.com/watch?v=d-SJmsgoUrw&ab_channel=CrackConcepts)]
    - SQL update script, ALTER TABLE table_name ADD column_name datatype;
-   - Answer for question: How to change DB tables in the running environment? (manually without Liquibase)
+   - Answer for question: How to change DB tables in the running environment? (manually without Liquibase), rolling updates
    - Isolation levels from lowest to highest are Read Uncommitted, Read Committed, Repeatable Read, and Serializable. [[link](https://jetherrodrigues.dev.br/transaction-management-in-the-spring-framework-996d700f1f27)]
    - Postrges default isolation level. Explain what this isolation means?
 4. ORM
