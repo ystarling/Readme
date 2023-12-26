@@ -108,7 +108,7 @@
       - A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
    - Docker networking?, Docker swarm, compose? how to expose or open service connection outside?
       - https://docs.docker.com/get-started/08_using_compose/
-      - etc
+      - https://youtu.be/tNk8uXLOxA8?t=499
       - etc 
 8. K8s
    - K8s question: if your service in K8s is down what is your step to do? service describe, readiness probe.
