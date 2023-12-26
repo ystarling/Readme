@@ -31,8 +31,8 @@
      - Race condition. Occurs in programming when two or more execution threads modify a shared resource.
    - Collections
      - LinkedList vs ArrayList, pros & cons? LinkedList vs ArrayList (size capacity 10 by default).
-       Linked list fast for add and remove O(1), slow access O(n).
-       ArrayList fast random access O(1), but slow add and delete!
+       - Linked list `fast for add and remove O(1), slow access O(n).`
+       - ArrayList `fast random access O(1), but slow add and delete!`
      - public interface Collection<E> extends Iterable<E>
      - thread safe Collections?
      - fast fail, fail safe
