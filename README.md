@@ -125,6 +125,7 @@
    - Historical data can be used to identify trends and patterns and to perform retrospective analysis to understand and diagnose issues that occurred in the past. It can also be used to provide context and benchmarking information for future planning and decision-making.
 It is important to establish a data retention policy that defines how long data should be kept, where it should be stored, and how it should be managed. This policy should consider factors such as data volume, access requirements, and compliance regulations, and should be aligned with the overall data management strategy for the organization. The data should be organized and indexed to enable easy searching and retrieval.
    - One of the main objectives of monitoring Kubernetes is to ensure that applications are performing optimally and meeting user expectations.
+   - https://www.aquasec.com/cloud-native-academy/kubernetes-101/kubernetes-monitoring/
    - etc
 9. Clean Code and Uncle Bob, Craftmanship
    - code refactoring how to? Better organization, Less code duplication, Easier maintenance, understandable, readable, structured, documented
