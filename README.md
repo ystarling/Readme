@@ -121,6 +121,7 @@
    - kubectl, kebelet, manifest, agent deployment, cluster, node, pod, container
    - kubernetes monitoring tools: Grafana, ELK, Datadog, K8s Dashboards,
    - Kubernetes has progressively rolled out support for auto-scaling with metrics besides CPU utilization, such as memory consumption. Kubernetes uses labels to identify which pods belong to a particular service, you can use these labels to aggregate data from individual pods and containers to get continuous visibility into services and other Kubernetes objects.
+   - Kubernetes is an open-source container orchestration system for automating deployment, scaling, and management of containerized applications. Kubernetes monitoring refers to the practice of monitoring the health and performance of a Kubernetes cluster or deployment. Kubernetes monitoring typically involves collecting metrics and logs from various components of the Kubernetes cluster, including nodes, pods, and services, and analyzing them to gain insights into the cluster’s behavior. Some of the key metrics that are commonly monitored in a Kubernetes cluster include CPU usage, memory usage, network traffic, and disk usage.
    - etc
 9. Clean Code and Uncle Bob, Craftmanship
    - code refactoring how to? Better organization, Less code duplication, Easier maintenance, understandable, readable, structured, documented
