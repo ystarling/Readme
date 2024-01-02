@@ -116,7 +116,7 @@
    - K8s question: if your service in K8s is down what is your step to do? service describe, readiness probe.
     Read Troubleshooting applications kubernetes.io , startup, liveness, readness probe, describe pod, [[link](https://stackoverflow.com/questions/65858309/why-do-i-need-3-different-kind-of-probes-in-kubernetes-startupprobe-readinessp)]
    - deployment kind, services,
-   - kubectl, kebelet, manifest
+   - kubectl, kebelet, manifest, agent deployment, cluster, node, pod, container
    - etc
 9. Clean Code and Uncle Bob, Craftmanship
    - code refactoring how to? Better organization, Less code duplication, Easier maintenance, understandable, readable, structured, documented
