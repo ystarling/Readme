@@ -119,7 +119,7 @@
     Read Troubleshooting applications kubernetes.io , startup, liveness, readness probe, describe pod, [[link](https://stackoverflow.com/questions/65858309/why-do-i-need-3-different-kind-of-probes-in-kubernetes-startupprobe-readinessp)]
    - deployment kind, services, Deploy the node-based Agent
    - kubectl, kebelet, manifest, agent deployment, cluster, node, pod, container
-   - A pod typically includes several containers, which together form a functional unit.
+   - A pod typically includes several containers, which together form a functional unit. A Pod is is the smallest unit that can be deployed and managed by Kubernetes.
    - kubernetes monitoring tools: Grafana, ELK, Datadog, New Relic, K8s Dashboards,
    - Kubernetes has progressively rolled out support for auto-scaling with metrics besides CPU utilization, such as memory consumption. Kubernetes uses labels to identify which pods belong to a particular service, you can use these labels to aggregate data from individual pods and containers to get continuous visibility into services and other Kubernetes objects.
    - Kubernetes is an open-source container orchestration system for automating deployment, scaling, and management of containerized applications. Kubernetes monitoring refers to the practice of monitoring the health and performance of a Kubernetes cluster or deployment. Kubernetes monitoring typically involves collecting metrics and logs from various components of the Kubernetes cluster, including nodes, pods, and services, and analyzing them to gain insights into the cluster’s behavior. Some of the key metrics that are commonly monitored in a Kubernetes cluster include CPU usage, memory usage, network traffic, and disk usage.
