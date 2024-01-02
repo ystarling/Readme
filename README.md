@@ -122,6 +122,9 @@
    - kubernetes monitoring tools: Grafana, ELK, Datadog, K8s Dashboards,
    - Kubernetes has progressively rolled out support for auto-scaling with metrics besides CPU utilization, such as memory consumption. Kubernetes uses labels to identify which pods belong to a particular service, you can use these labels to aggregate data from individual pods and containers to get continuous visibility into services and other Kubernetes objects.
    - Kubernetes is an open-source container orchestration system for automating deployment, scaling, and management of containerized applications. Kubernetes monitoring refers to the practice of monitoring the health and performance of a Kubernetes cluster or deployment. Kubernetes monitoring typically involves collecting metrics and logs from various components of the Kubernetes cluster, including nodes, pods, and services, and analyzing them to gain insights into the cluster’s behavior. Some of the key metrics that are commonly monitored in a Kubernetes cluster include CPU usage, memory usage, network traffic, and disk usage.
+   - Historical data can be used to identify trends and patterns and to perform retrospective analysis to understand and diagnose issues that occurred in the past. It can also be used to provide context and benchmarking information for future planning and decision-making.
+
+It is important to establish a data retention policy that defines how long data should be kept, where it should be stored, and how it should be managed. This policy should consider factors such as data volume, access requirements, and compliance regulations, and should be aligned with the overall data management strategy for the organization. The data should be organized and indexed to enable easy searching and retrieval.
    - etc
 9. Clean Code and Uncle Bob, Craftmanship
    - code refactoring how to? Better organization, Less code duplication, Easier maintenance, understandable, readable, structured, documented
