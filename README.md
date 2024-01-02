@@ -118,7 +118,7 @@
    - deployment kind, services, Deploy the node-based Agent
    - kubectl, kebelet, manifest, agent deployment, cluster, node, pod, container
    - kubernetes monitoring tools: Grafana, ELK, Datadog, K8s Dashboards,
-   - Kubernetes has progressively rolled out support for auto-scaling with metrics besides CPU utilization, such as memory consumption. 
+   - Kubernetes has progressively rolled out support for auto-scaling with metrics besides CPU utilization, such as memory consumption. Kubernetes uses labels to identify which pods belong to a particular service, you can use these labels to aggregate data from individual pods and containers to get continuous visibility into services and other Kubernetes objects.
    - etc
 9. Clean Code and Uncle Bob, Craftmanship
    - code refactoring how to? Better organization, Less code duplication, Easier maintenance, understandable, readable, structured, documented
