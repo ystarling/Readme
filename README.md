@@ -113,7 +113,8 @@
       - https://youtu.be/tNk8uXLOxA8?t=499
       - etc
    - https://docs.docker.com/engine/swarm/
-   - etc 
+   - https://www.youtube.com/watch?v=i7ABlHngi1Q&ab_channel=TravisMedia
+   - etc
 8. K8s
    - K8s question: if your service in K8s is down what is your step to do? service describe, readiness probe.
     Read Troubleshooting applications kubernetes.io , startup, liveness, readness probe, describe pod, [[link](https://stackoverflow.com/questions/65858309/why-do-i-need-3-different-kind-of-probes-in-kubernetes-startupprobe-readinessp)]
