@@ -111,7 +111,7 @@
    - Docker networking?, Docker swarm, compose? how to expose or open service connection outside?
       - https://docs.docker.com/get-started/08_using_compose/
       - https://youtu.be/tNk8uXLOxA8?t=499
-      - etc
+      - [[crazy](https://www.youtube.com/watch?v=bKFMS5C4CG0&ab_channel=NetworkChuck)]
    - https://docs.docker.com/engine/swarm/
    - https://www.youtube.com/watch?v=i7ABlHngi1Q&ab_channel=TravisMedia
    - etc
