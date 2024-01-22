@@ -25,7 +25,7 @@
    - Threads
      - Singleton class
      - Thread safe, DeadLock?
-     - volatile
+     - volatile, use fast cash in memory
      - Lock interface, locking, synchronize block
      - Executors
      - Race condition. Occurs in programming when two or more execution threads modify a shared resource.
