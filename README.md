@@ -11,7 +11,7 @@
      - anonymous function, lambda, functional interface, default methods, do you know any functional methods?
      - Immutable class? class final, private final members, initialise everything in constructor, deep copy, no setters! 
      - JVM inside, class loaders, rt.jar, bootstrap. [[link](https://medium.com/geekculture/java-backend-developer-interview-questions-pt-1-10-1c74c76442bd)]
-     - Funtional interfaces java, purpose, examples? single abstract method, to avoid boilerplate using anonymous classes, Consumer, Predicate, Function, Supplier.
+     - Funtional interfaces java, purpose, examples? single abstract method, to avoid boilerplate using anonymous classes, Consumer, Predicate, Function, Supplier. Runnable, Callable, Comparable, 
      - Garbage collector, Memory management, memory allocate. tuning GC1.
        `heap=objects.`
        `permgen(metaspace):classes, static, string pool.`
