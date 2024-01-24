@@ -171,9 +171,15 @@ Common terminology between the domain experts and the development team includes 
     - Squads, [[link](https://engineering.atspotify.com/2014/03/spotify-engineering-culture-part-1/)], [[link](https://vimeo.com/85490944)]
 14. Code challenges
     - etc
-15. etc
-16. 
-
+15. Domains
+    - EV Charging, OCPP & OCPI
+    - [[link](https://www.linkedin.com/pulse/3-tricks-implement-smart-charging-ocpp-16-joachim-lohse/)], [[link](https://www.linkedin.com/pulse/seamless-ev-charging-roaming-exploring-ocpi-protocol-fedotov/)], [[link](https://medium.com/@yocharge2022/open-charge-point-protocol-ocpp-a-complete-guide-cfcfb57c4108)]
+    - Through OCPP, the Central System can monitor and manage charging sessions, collect data on energy consumption, and handle billing information. 
+    - sending commands to CPO
+    - etc
+    - etc
+16. etc 
+17. etc
 
     
 
