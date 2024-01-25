@@ -161,6 +161,7 @@ Common terminology between the domain experts and the development team includes 
 11. CI/CD
     - feature toggle, how to manage if one main branch
     - git flow? what is trunk base? main branch etc.
+    - trunc base strategy
     - CI/CD how it? ArgoCD, Octopus deploy, GitLab
     - Github Actions, [[link](https://docs.github.com/en/actions/quickstart)], [[link](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)], [[youtube](https://www.youtube.com/watch?v=3mzQRJY1GVE&ab_channel=TECHSCHOOL)], [[listen!](https://www.youtube.com/watch?v=R8_veQiYBjI&ab_channel=TechWorldwithNana)]
 12. Linux
