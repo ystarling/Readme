@@ -180,8 +180,17 @@ Common terminology between the domain experts and the development team includes 
     - sending commands to CPO
     - etc
     - etc
-16. etc 
-17. etc
+16. Questions & Answers
+    - Can you tell me more about the team?
+    - What are the biggest challenges that I might face in this position?
+    - What would a typical day for me in this role look like?
+    - What are the biggest challenges that I might face in this position?
+    - We appreciate any tools that increase our productivity.
+    - As we have 8 separate teams always dedicated always PO, 
+    - Our daily work is driven by Agile values, be focus, committed,
+    - Each team works transparently making sure that all progress and knowledge shared.
+    - 
+18. etc
 
     
 
