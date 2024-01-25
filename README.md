@@ -66,7 +66,7 @@
        - ReflectionUtils
        - Paging, Sorting
        - @Patch, [[link](https://www.youtube.com/watch?v=UB71ARdhS78&ab_channel=AlmightyJava)]
-   - Elasticsearch
+   - Security oAuth2, basic what is it how it works internally?
    - etc
 4. DATABASE
    - NoSql vs RDBMs, NoSQL(high velocity-speed, high handle volume data). [[link](https://www.geeksforgeeks.org/difference-between-relational-database-and-nosql/)]
@@ -110,7 +110,7 @@
    - fault tolerant approach, Bulkhead pattern, Circuit Breaker. [[link](https://www.codecentric.de/wissens-hub/blog/resilience-design-patterns-retry-fallback-timeout-circuit-breaker)], [[link](https://www.youtube.com/watch?v=ADHcBxEXvFA&ab_channel=DefogTech)], [[link](https://quickbooks-engineering.intuit.com/resiliency-two-alternatives-for-fault-tolerance-to-deprecated-hystrix-de58870a8c3f)]
    - Resilience design patterns: retry, fallback, timeout, circuit breaker.
    - https://www.codecentric.de/wissens-hub/blog/resilience-design-patterns-retry-fallback-timeout-circuit-breaker
-   - Service Discovery
+   - Service discovery is a mechanism by which services discover each other dynamically without the need for hard coding IP addresses or endpoint configuration.
    - etc
 7. Docker
    - What is docker container itself? [[link](https://www.docker.com/resources/what-container/#:~:text=A%20Docker%20container%20image%20is,tools%2C%20system%20libraries%20and%20settings.)]
@@ -179,7 +179,7 @@ Common terminology between the domain experts and the development team includes 
     - EV Charging, OCPP & OCPI
     - [[link](https://www.linkedin.com/pulse/3-tricks-implement-smart-charging-ocpp-16-joachim-lohse/)], [[link](https://www.linkedin.com/pulse/seamless-ev-charging-roaming-exploring-ocpi-protocol-fedotov/)], [[link](https://medium.com/@yocharge2022/open-charge-point-protocol-ocpp-a-complete-guide-cfcfb57c4108)]
     - Through OCPP, the Central System can monitor and manage charging sessions, collect data on energy consumption, and handle billing information. 
-    - sending commands to CPO
+    - Sending commands to CPO
     - etc
     - etc
 16. Questions & Answers
