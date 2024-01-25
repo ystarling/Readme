@@ -100,7 +100,7 @@
    - Rest vs Soap
    - idempotent, [[link](https://restfulapi.net/idempotent-rest-apis/)]
    - Rest header, body, query parameters, content-type?
-   - 
+   - backward compatibility, versioning, https://www.linkedin.com/advice/0/how-do-you-design-restful-api-supports#:~:text=Backward%20compatibility%20is%20the%20ability,new%20version%20of%20the%20API.
 6. Microservices
    - Event driven communication vs REST, when to use?
       - Event-garantie that message deliveried to consumer, no downtime, no need to wait for message.
@@ -108,7 +108,8 @@
       - Asynchronous and nonblocking
    - how did you specify the boundaries of your microservices. [[link](https://blog.bitsrc.io/how-to-choose-microservices-boundaries-5c68b0b1af24)], [[link](https://nathanpeck.com/making-microservice-boundaries-that-you-wont-regret/)], [[link](https://codeburst.io/microservice-boundaries-five-characteristics-to-guide-your-design-89312b65cc27)], [[link](https://www.linkedin.com/advice/0/how-do-you-identify-boundaries-microservices-from)], [[link](https://www.linkedin.com/advice/3/how-do-you-set-microservice-boundaries-skills-software-design#:~:text=One%20of%20the%20first%20steps,inventory%20management%2C%20or%20payment%20processing.)], [[link](https://www.oreilly.com/library/view/microservices-up-and/9781492075448/ch04.html)], [[link](https://www.lokajittikayatray.com/post/how-to-define-your-microservices-correctly)]
    - fault tolerant approach, Bulkhead pattern, Circuit Breaker. [[link](https://www.codecentric.de/wissens-hub/blog/resilience-design-patterns-retry-fallback-timeout-circuit-breaker)], [[link](https://www.youtube.com/watch?v=ADHcBxEXvFA&ab_channel=DefogTech)], [[link](https://quickbooks-engineering.intuit.com/resiliency-two-alternatives-for-fault-tolerance-to-deprecated-hystrix-de58870a8c3f)]
-   - Resilience design patterns: retry, fallback, timeout, circuit breaker
+   - Resilience design patterns: retry, fallback, timeout, circuit breaker.
+   - https://www.codecentric.de/wissens-hub/blog/resilience-design-patterns-retry-fallback-timeout-circuit-breaker
    - etc
 7. Docker
    - What is docker container itself? [[link](https://www.docker.com/resources/what-container/#:~:text=A%20Docker%20container%20image%20is,tools%2C%20system%20libraries%20and%20settings.)]
