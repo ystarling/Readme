@@ -112,6 +112,7 @@
    - Resilience design patterns: retry, fallback, timeout, circuit breaker.
    - https://www.codecentric.de/wissens-hub/blog/resilience-design-patterns-retry-fallback-timeout-circuit-breaker
    - Service discovery is a mechanism by which services discover each other dynamically without the need for hard coding IP addresses or endpoint configuration.
+   - https://blog.bitsrc.io/how-to-choose-microservices-boundaries-5c68b0b1af24
    - etc
 7. Docker
    - What is docker container itself? [[link](https://www.docker.com/resources/what-container/#:~:text=A%20Docker%20container%20image%20is,tools%2C%20system%20libraries%20and%20settings.)]
