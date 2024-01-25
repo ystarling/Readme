@@ -98,7 +98,7 @@
    - Transactional manager in Hibernate
 5. REST
    - Rest vs Soap
-   - idempotent, [[link](https://restfulapi.net/idempotent-rest-apis/)]
+   - Idempotent, [[link](https://restfulapi.net/idempotent-rest-apis/)]
    - Rest header, body, query parameters, content-type?
    - backward compatibility, versioning, https://www.linkedin.com/advice/0/how-do-you-design-restful-api-supports#:~:text=Backward%20compatibility%20is%20the%20ability,new%20version%20of%20the%20API.
 6. Microservices
