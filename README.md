@@ -67,6 +67,7 @@
        - Paging, Sorting
        - @Patch, [[link](https://www.youtube.com/watch?v=UB71ARdhS78&ab_channel=AlmightyJava)]
    - Security oAuth2, basic what is it how it works internally?
+   - SecurityFilterChain, Resource server, bearer tokens: jwt, opaque token. Bearer Token, basic authentication, SecurityContextHolder, 
    - etc
 4. DATABASE
    - NoSql vs RDBMs, NoSQL(high velocity-speed, high handle volume data). [[link](https://www.geeksforgeeks.org/difference-between-relational-database-and-nosql/)]
