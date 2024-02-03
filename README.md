@@ -124,7 +124,8 @@
       - [[crazy](https://www.youtube.com/watch?v=bKFMS5C4CG0&ab_channel=NetworkChuck)]
    - https://docs.docker.com/engine/swarm/
    - https://www.youtube.com/watch?v=i7ABlHngi1Q&ab_channel=TravisMedia
-   - etc
+   - https://medium.com/@bharathy.poovalingam/spring-boot-with-docker-d4129a353f87
+   - 
 8. K8s
    - K8s question: if your service in K8s is down what is your step to do? service describe, readiness probe.
     Read Troubleshooting applications kubernetes.io , startup, liveness, readness probe, describe pod, [[link](https://stackoverflow.com/questions/65858309/why-do-i-need-3-different-kind-of-probes-in-kubernetes-startupprobe-readinessp)]
