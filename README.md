@@ -50,6 +50,7 @@
      - Liskov = The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application. Do you know how to broke this principal in diff languages? [[link](https://softwareengineering.stackexchange.com/questions/436420/what-are-the-examples-of-breaking-liskov-substitution-principle)]
      - Dependency inversion = High level modules should not depend upon low level. Everything should be dependent on abstraction.
      - Interface sagregation = “Clients should not be forced to depend upon interfaces that they do not use.” By following this principle, you prevent bloated interfaces that define methods for multiple responsibilities. Split one interface to more with specific responsibilities.
+     - why SOLID?  maintainable, understandable, and flexible, as our applications grow in size, we can reduce their complexity. Smaller, well-organized classes.
    - IntelijIDEA shortcuts repeat!
    - etc
    - Kotlin vs Java, syntax, null safety, functional programming
