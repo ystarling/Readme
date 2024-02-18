@@ -51,6 +51,7 @@
      - Dependency inversion = High level modules should not depend upon low level. Everything should be dependent on abstraction.
      - Interface sagregation = “Clients should not be forced to depend upon interfaces that they do not use.” By following this principle, you prevent bloated interfaces that define methods for multiple responsibilities. Split one interface to more with specific responsibilities.
      - why SOLID?  maintainable, understandable, and flexible, as our applications grow in size, we can reduce their complexity. Smaller, well-organized classes.
+     - https://medium.com/@furkanalniak/understanding-solid-principles-in-java-code-examples-and-best-practices-f6451bb5198e
    - IntelijIDEA shortcuts repeat!
    - etc
    - Kotlin vs Java, syntax, null safety, functional programming
