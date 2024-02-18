@@ -40,7 +40,7 @@
      - fast fail, fail safe
      - implement Comparable, or anonymous class Comparator
      - Iterator used for change mutable objects like created by List.of
-   - Java 11 vs 17, var, Text blocks """text""", Records, S.toList() instead of S.collect(Collectors.toList())
+   - Java 11 vs 17, var keyword without specifing type, Text blocks """text""", Records, S.toList() instead of S.collect(Collectors.toList())
    - GoF patterns
      - Remember most usage patterns: Strategy(lambda!), Observer, Decorator, Iterator, Builder.
      - BandOf4 patterns? what you use? Observer, Proxy, Iterator vs Iterable? Adapter, Decorator, Facade.
