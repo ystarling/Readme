@@ -184,6 +184,7 @@ Common terminology between the domain experts and the development team includes 
     - Squads, [[link](https://engineering.atspotify.com/2014/03/spotify-engineering-culture-part-1/)], [[link](https://vimeo.com/85490944)]
 14. Code challenges
     - https://www.linkedin.com/pulse/coding-challenges-struggle-real-solutions-here-owoseni-boluwatife-ss0jf/
+    - https://leanylabs.com/blog/senior-vs-middle-vs-junior-developers/
     - etc
 15. Domains
     - EV Charging, OCPP & OCPI
