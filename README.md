@@ -7,7 +7,7 @@
      - loose coupling & high cohesion
      - Equals & HashCode, hashCode & equals contract? busket 1, 2, hashcode collision.
        `if two objects equal then hashcode should be the same`, [[link](https://medium.com/coding-corpus/java-important-methods-equals-hashcode-and-compareto-6adcdf2814c3)]
-     - Lambda, Anonymous classes
+     - Lambda expression, Anonymous classes
      - anonymous function, lambda, functional interface, default methods, do you know any functional methods?
      - Immutable class? class final, private final members, initialise everything in constructor, deep copy, no setters! 
      - JVM inside, class loaders, rt.jar, bootstrap. [[link](https://medium.com/geekculture/java-backend-developer-interview-questions-pt-1-10-1c74c76442bd)]
