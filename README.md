@@ -31,6 +31,8 @@
      - Lock interface, locking, synchronize block
      - Executors
      - Race condition. Occurs in programming when two or more execution threads modify a shared resource.
+     - https://rjlfinn.medium.com/asynchronous-programming-in-java-d6410d53df4d
+     - etc
    - Collections
      - LinkedList vs ArrayList, pros & cons? LinkedList vs ArrayList (size capacity 10 by default).
        - LinkedList `fast for add and remove O(1), slow access O(n).`
