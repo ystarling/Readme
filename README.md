@@ -106,6 +106,7 @@
    - Idempotent, [[link](https://restfulapi.net/idempotent-rest-apis/)]
    - Rest header, body, query parameters, content-type?
    - backward compatibility, versioning, https://www.linkedin.com/advice/0/how-do-you-design-restful-api-supports#:~:text=Backward%20compatibility%20is%20the%20ability,new%20version%20of%20the%20API.
+   - client server architecture based on requests - responses, various response format, flexible, stateless (means all info that needs already in request).
 6. Microservices
    - Event driven communication vs REST, when to use?
       - Event-garantie that message deliveried to consumer, no downtime, no need to wait for message.
