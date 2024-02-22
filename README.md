@@ -213,7 +213,6 @@ stock market
 ETFs(exchange-traded funds) = funds that trade on exchanges (фонды, торгующие на биржах)
 Trading calendar
 Auction schedule
-
 https://www.xetra.com/xetra-en/trading/trading-models/auctionschedule
 https://www.gettex.de/en/etfs/
     - etc
