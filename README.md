@@ -202,7 +202,20 @@ Common terminology between the domain experts and the development team includes 
     - [[link](https://www.linkedin.com/pulse/3-tricks-implement-smart-charging-ocpp-16-joachim-lohse/)], [[link](https://www.linkedin.com/pulse/seamless-ev-charging-roaming-exploring-ocpi-protocol-fedotov/)], [[link](https://medium.com/@yocharge2022/open-charge-point-protocol-ocpp-a-complete-guide-cfcfb57c4108)]
     - Through OCPP, the Central System can monitor and manage charging sessions, collect data on energy consumption, and handle billing information. 
     - Sending commands to CPO
-    - etc
+    - Fintech,
+Financial broker
+Equities -Акции
+Corporate/Goverment bonds
+Trade
+Exchange
+Funds
+stock market
+ETFs(exchange-traded funds) = funds that trade on exchanges (фонды, торгующие на биржах)
+Trading calendar
+Auction schedule
+
+https://www.xetra.com/xetra-en/trading/trading-models/auctionschedule
+https://www.gettex.de/en/etfs/
     - etc
 16. Questions & Answers
     - Can you tell me more about the team?
