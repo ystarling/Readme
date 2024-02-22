@@ -112,6 +112,10 @@
       - Rest-has address which service you
       - Asynchronous and nonblocking
       - what usually can happen with messages, can some messages not reach, or duplicate, if so how to deal with it?
+      - Rest - client-server communication,
+      - ED - has more consumers, no single point of failure
+   - Monolithic - all functionalities tightly coupled in single application, simplicity, easy deployment, but lack of scalability and fault tolerance. It may become complex and difficult to maintain as the system grow.
+   - Microservices - breaking down the system into independent and loosely coupled services, each responsible for specific function. It offers scalability, fault tolerance, flexibility in technology choices. Hovewer is introduces complexity in inter-service communication and deployment. 
    - how did you specify the boundaries of your microservices. [[link](https://blog.bitsrc.io/how-to-choose-microservices-boundaries-5c68b0b1af24)], [[link](https://nathanpeck.com/making-microservice-boundaries-that-you-wont-regret/)], [[link](https://codeburst.io/microservice-boundaries-five-characteristics-to-guide-your-design-89312b65cc27)], [[link](https://www.linkedin.com/advice/0/how-do-you-identify-boundaries-microservices-from)], [[link](https://www.linkedin.com/advice/3/how-do-you-set-microservice-boundaries-skills-software-design#:~:text=One%20of%20the%20first%20steps,inventory%20management%2C%20or%20payment%20processing.)], [[link](https://www.oreilly.com/library/view/microservices-up-and/9781492075448/ch04.html)], [[link](https://www.lokajittikayatray.com/post/how-to-define-your-microservices-correctly)]
    - fault tolerant approach, Bulkhead pattern, Circuit Breaker. [[link](https://www.codecentric.de/wissens-hub/blog/resilience-design-patterns-retry-fallback-timeout-circuit-breaker)], [[link](https://www.youtube.com/watch?v=ADHcBxEXvFA&ab_channel=DefogTech)], [[link](https://quickbooks-engineering.intuit.com/resiliency-two-alternatives-for-fault-tolerance-to-deprecated-hystrix-de58870a8c3f)]
    - Resilience design patterns: retry, fallback, timeout, circuit breaker.
@@ -145,7 +149,7 @@
 It is important to establish a data retention policy that defines how long data should be kept, where it should be stored, and how it should be managed. This policy should consider factors such as data volume, access requirements, and compliance regulations, and should be aligned with the overall data management strategy for the organization. The data should be organized and indexed to enable easy searching and retrieval.
    - One of the main objectives of monitoring Kubernetes is to ensure that applications are performing optimally and meeting user expectations.
    - https://www.aquasec.com/cloud-native-academy/kubernetes-101/kubernetes-monitoring/
-   - delete mimikube https://gist.github.com/rahulkumar-aws/65e6fbe16cc71012cef997957a1530a3
+   - delete minikube https://gist.github.com/rahulkumar-aws/65e6fbe16cc71012cef997957a1530a3
    - etc
 9. Clean Code and Uncle Bob, Craftmanship
    - code refactoring how to? Better organization, Less code duplication, Easier maintenance, understandable, readable, structured, documented
@@ -173,7 +177,7 @@ Common terminology between the domain experts and the development team includes 
     - feature toggle, how to manage if one main branch
     - merge vs rebase
     - git flow? what is trunk base? main branch etc.
-    - trunc base strategy
+    - what is trunc base strategy?
     - CI/CD how it? ArgoCD, Octopus deploy, GitLab
     - Github Actions, [[link](https://docs.github.com/en/actions/quickstart)], [[link](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)], [[youtube](https://www.youtube.com/watch?v=3mzQRJY1GVE&ab_channel=TECHSCHOOL)], [[listen!](https://www.youtube.com/watch?v=R8_veQiYBjI&ab_channel=TechWorldwithNana)]
 12. Linux
