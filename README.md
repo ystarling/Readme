@@ -54,7 +54,8 @@
      - Interface sagregation = “Clients should not be forced to depend upon interfaces that they do not use.” By following this principle, you prevent bloated interfaces that define methods for multiple responsibilities. Split one interface to more with specific responsibilities.
      - why SOLID?  maintainable, understandable, and flexible, as our applications grow in size, we can reduce their complexity. Smaller, well-organized classes.
      - https://medium.com/@furkanalniak/understanding-solid-principles-in-java-code-examples-and-best-practices-f6451bb5198e
-     - [[github](https://github.com/Java-Techie-jt/solid-principles-example/tree/main)], [[link](https://www.youtube.com/watch?v=BM_lSZPMClo&ab_channel=JavaTechie)], [[link](https://www.youtube.com/watch?v=HoA6aZPR5K0&ab_channel=Geekific)]
+     - [[github](https://github.com/Java-Techie-jt/solid-principles-example/tree/main)], [[link](https://www.youtube.com/watch?v=BM_lSZPMClo&ab_channel=JavaTechie)], [[link](https://www.youtube.com/watch?v=HoA6aZPR5K0&ab_channel=Geekific)], [[link](https://www.youtube.com/watch?v=_jDNAf3CzeY&ab_channel=Amigoscode)]
+     - etc
    - IntelijIDEA shortcuts repeat!
    - etc
    - Kotlin vs Java, syntax, null safety, functional programming
