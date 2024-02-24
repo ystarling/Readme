@@ -188,7 +188,7 @@ It is important to establish a data retention policy that defines how long data 
 Common terminology between the domain experts and the development team includes domain logic, subdomains, bounded contexts, context maps, domain models, and ubiquitous language as a way of collaborating and improving the application model and solving any domain-related challenges.
       - Microservices offer some serious advantages over traditional architectures, providing scalability, accessibility, and flexibility. Moreover, this approach keeps developers focused as each microservice is a loosely coupled service with a single idea of accountability.
       - subject,
-   - Refactoring, [[link](https://www.youtube.com/watch?v=T3iTI2uEwkc&ab_channel=PragmaticWays)], 
+   - Refactoring, [[link](https://www.youtube.com/watch?v=T3iTI2uEwkc&ab_channel=PragmaticWays)], [[link](https://www.youtube.com/watch?v=4P9qkbajv4g&ab_channel=Globant)], [[github](https://github.com/Programming-with-Mati/fp-legacy-refactor-camp/tree/solution)]
 10. Design
     - Spotify, music streaming [[link](https://www.youtube.com/watch?v=_K-eupuDVEc&ab_channel=IGotAnOffer%3AEngineering)]
     - Amazon System Design Interview: Design Parking Garage, [[link](https://www.youtube.com/watch?v=NtMvNh0WFVM&ab_channel=Exponent)]
