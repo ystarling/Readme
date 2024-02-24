@@ -49,6 +49,15 @@
      - Decorator pattern(structural), decor. [[link](https://medium.com/analytics-vidhya/simplify-strategy-using-lambda-expression-40195d1445ea)]
      - https://refactoring.guru/
      - Why Singleton is anti-pattern? [[link](https://medium.com/aia-sg-techblog/why-singleton-pattern-is-considered-as-anti-design-pattern-c81dd8b7e757)]
+Violating Single Responsibility Principle :
+Single Responsibility Principle states that every class should have a single task to do.
+In case of Singleton class it will have two responsibility one to create an instance and other to do the actual task.
+       Breaks the Open Closed Principle :
+Open Closed Principle can be explained in a single statement “Open for Extension closed for Modification”.
+Singleton class always returns its own instance and is never open for extension.
+Dependency Inversion Violation: Dependency Inversion Principle ensures that change in low level details should not impact the high level abstraction.
+Any low level changes in singleton pattern system we need to do change the Singleton class.
+     - etc
    - SOLID
      - Liskov = The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application. Do you know how to broke this principal in diff languages? [[link](https://softwareengineering.stackexchange.com/questions/436420/what-are-the-examples-of-breaking-liskov-substitution-principle)]
      - Dependency inversion = High level modules should not depend upon low level. Everything should be dependent on abstraction.
