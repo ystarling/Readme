@@ -208,6 +208,7 @@ Common terminology between the domain experts and the development team includes 
     - Trunk-based development is a version control management practice where developers merge small, frequent updates to a core “trunk” or main branch.
     - https://www.harness.io/blog/trunk-based-vs-feature-based-development
     - Feature flags (FF), also known as toggles, are a powerful tool in modern software development.
+    - FeatureAwareFactory
     - etc
 12. Linux
     - how to remote connect in Linux/Unix, SSH command? most common list commands
