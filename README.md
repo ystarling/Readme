@@ -202,6 +202,11 @@ Common terminology between the domain experts and the development team includes 
     - what is trunc base strategy?
     - CI/CD how it? ArgoCD, Octopus deploy, GitLab
     - Github Actions, [[link](https://docs.github.com/en/actions/quickstart)], [[link](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)], [[youtube](https://www.youtube.com/watch?v=3mzQRJY1GVE&ab_channel=TECHSCHOOL)], [[listen!](https://www.youtube.com/watch?v=R8_veQiYBjI&ab_channel=TechWorldwithNana)]
+    - When new code is merged into the trunk, automated integration and code coverage tests run to validate the code quality.
+    - Trunk-based development, feature flags, When developers finish new work, they must merge the new code into the main branch.
+    - Gitflow vs. trunk-based development.
+    - Trunk-based development is a version control management practice where developers merge small, frequent updates to a core “trunk” or main branch.
+    - 
 12. Linux
     - how to remote connect in Linux/Unix, SSH command? most common list commands
     - 
