@@ -206,7 +206,9 @@ Common terminology between the domain experts and the development team includes 
     - Trunk-based development, feature flags, When developers finish new work, they must merge the new code into the main branch.
     - Gitflow vs. trunk-based development.
     - Trunk-based development is a version control management practice where developers merge small, frequent updates to a core “trunk” or main branch.
-    - 
+    - https://www.harness.io/blog/trunk-based-vs-feature-based-development
+    - etc
+    - etc
 12. Linux
     - how to remote connect in Linux/Unix, SSH command? most common list commands
     - 
