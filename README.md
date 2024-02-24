@@ -27,7 +27,7 @@
    - Threads
      - Singleton class
      - Thread safe, DeadLock?
-     - volatile, use fast cash in memory
+     - volatile, use fast cache in memory
      - Lock interface, locking, synchronize block
      - Executors
      - Race condition. Occurs in programming when two or more execution threads modify a shared resource.
@@ -48,6 +48,7 @@
      - BandOf4 patterns? what you use? Observer, Proxy, Iterator vs Iterable? Adapter, Decorator, Facade.
      - Decorator pattern(structural), decor. [[link](https://medium.com/analytics-vidhya/simplify-strategy-using-lambda-expression-40195d1445ea)]
      - https://refactoring.guru/
+     - Why Singleton is anti-pattern? [[link](https://medium.com/aia-sg-techblog/why-singleton-pattern-is-considered-as-anti-design-pattern-c81dd8b7e757)]
    - SOLID
      - Liskov = The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application. Do you know how to broke this principal in diff languages? [[link](https://softwareengineering.stackexchange.com/questions/436420/what-are-the-examples-of-breaking-liskov-substitution-principle)]
      - Dependency inversion = High level modules should not depend upon low level. Everything should be dependent on abstraction.
@@ -59,7 +60,6 @@
    - IntelijIDEA shortcuts repeat!
    - etc
    - Kotlin vs Java, syntax, null safety, functional programming
-
 3. SPRING
    - Spring vs SpringBoot
    - Dependency injection?
