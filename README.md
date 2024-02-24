@@ -57,6 +57,7 @@ Open Closed Principle can be explained in a single statement “Open for Extensi
 Singleton class always returns its own instance and is never open for extension.
 Dependency Inversion Violation: Dependency Inversion Principle ensures that change in low level details should not impact the high level abstraction.
 Any low level changes in singleton pattern system we need to do change the Singleton class.
+Difficult to Test. Tight Coupling.
      - etc
    - SOLID
      - Liskov = The principle defines that objects of a superclass shall be replaceable with objects of its subclasses without breaking the application. Do you know how to broke this principal in diff languages? [[link](https://softwareengineering.stackexchange.com/questions/436420/what-are-the-examples-of-breaking-liskov-substitution-principle)]
