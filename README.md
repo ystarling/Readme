@@ -252,9 +252,11 @@ https://www.gettex.de/en/etfs/
     - 
 18. etc
 
-    
-
-
+19. Frontend
+   - Angular [[link](https://www.youtube.com/watch?v=pkTAFaR5LRM)]
+20. d
+21. e
+22. 
 
 Markdown | Less | Pretty
 --- | --- | ---
