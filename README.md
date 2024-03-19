@@ -242,7 +242,7 @@ https://www.xetra.com/xetra-en/trading/trading-models/auctionschedule
 https://www.gettex.de/en/etfs/
     - etc
 16. Questions & Answers
-    - Can you tell me more about the team?
+    - Can you tell me more about the team? Can you tell me more about the team I would be working in?
     - What would a typical day for me in this role look like?
     - What are the biggest challenges that I might face in this position?
     - We appreciate any tools that increase our productivity.
