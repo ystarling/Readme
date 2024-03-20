@@ -22,6 +22,7 @@
        `eden space, new generation, old generation. heap max size`
        [[link](https://diptendud.medium.com/java-memory-management-interview-questions-and-answers-204d7a249019)]
      - class Objects.
+     - weak, strong, soft, phantom references: [[link](https://www.baeldung.com/java-reference-types)]
    - Streams
      - Sequence of operations on objects, 
          input->intermediate operations ..filter, mapping, reducing, sorting, etc->terminal operation->output
@@ -45,6 +46,7 @@
      - fast fail, fail safe
      - implement Comparable, or anonymous class Comparator
      - Iterator used for change mutable objects like created by List.of
+     - HashSet vs TreeSet
    - Java 11 vs 17, var keyword without specifing type, Text blocks """text""", Records, S.toList() instead of S.collect(Collectors.toList())
    - GoF patterns
      - Remember most usage patterns: Strategy(lambda!), Observer, Decorator, Iterator, Builder.
