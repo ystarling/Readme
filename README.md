@@ -92,6 +92,7 @@ Difficult to Test. Tight Coupling.
    - Authentication is a process for verifying identity. It answers the question “Is this person who they claim to be?‚ (username/password). Authentication verifies who the user is. Authentication works through passwords, one-time pins, biometric information, and other information provided or entered by the user.
    - Authorization gives the user permission to access specific resources. It answers the question “What is this authenticated person allowed to do?‚(Roles)
 Authorization determines what resources a user can access.
+   - RestTemplate [[link](https://hellokoding.com/spring-resttemplate-timeout/)]
    - etc
 4. DATABASE
    - NoSql vs RDBMs, NoSQL(high velocity-speed, high handle volume data). [[link](https://www.geeksforgeeks.org/difference-between-relational-database-and-nosql/)]
