@@ -25,7 +25,9 @@
        arguments: -XX:+PrintGCDetails. -XX:+UseSerialGC -Xms1024m -Xmx1024m -verbose:gc [[verbose](https://www.baeldung.com/java-verbose-gc)]  
        tuning JVM: visualVM, jmap -histo:live 7544, jConsole, 
      - class Objects.
-     - weak, strong, soft, phantom references: [[link](https://www.baeldung.com/java-reference-types)]
+     - weak, strong, soft, phantom references: [[link](https://www.baeldung.com/java-reference-types)]  
+       strong reference -sitting all time.  
+       weak reference -sitting on demand gc, once need memory.  
    - Streams
      - Sequence of operations on objects, 
          input->intermediate operations ..filter, mapping, reducing, sorting, etc->terminal operation->output
