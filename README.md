@@ -124,7 +124,7 @@ Authorization determines what resources a user can access.
    - Transactional manager in Hibernate
 5. REST
    - Rest vs Soap
-   - Idempotent, [[link](https://restfulapi.net/idempotent-rest-apis/)]
+   - Idempotent, [[link](https://restfulapi.net/idempotent-rest-apis/)], POST and PATCH are generally non-idempotent.
    - Rest header, body, query parameters, content-type?
    - backward compatibility, versioning, https://www.linkedin.com/advice/0/how-do-you-design-restful-api-supports#:~:text=Backward%20compatibility%20is%20the%20ability,new%20version%20of%20the%20API.
    - client server architecture based on requests - responses, various response format, flexible, stateless (means all info that needs already in request).
