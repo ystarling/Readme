@@ -236,6 +236,7 @@ Common terminology between the domain experts and the development team includes 
     - Through OCPP, the Central System can monitor and manage charging sessions, collect data on energy consumption, and handle billing information. 
     - Sending commands to CPO
     - Fintech,
+    - Travel, [[ota](https://zoftify.com/blog/how-an-online-travel-agency-ota-back-office-software-works)]
 Financial broker
 Equities -Акции
 Corporate/Goverment bonds
