@@ -248,7 +248,7 @@ Trading calendar
 Auction schedule
 https://www.xetra.com/xetra-en/trading/trading-models/auctionschedule
 https://www.gettex.de/en/etfs/
-    - Travel, [[ota](https://zoftify.com/blog/how-an-online-travel-agency-ota-back-office-software-works)]
+    - Travel, [[ota](https://zoftify.com/blog/how-an-online-travel-agency-ota-back-office-software-works)], [[ota](https://xml.coverpages.org/OTA-2001B-200202.pdf)]
     - etc
 16. Questions & Answers
     - Can you tell me more about the team? Can you tell me more about the team I would be working in?
