@@ -130,7 +130,7 @@ Authorization determines what resources a user can access.
 5. REST
    - Rest vs Soap
    - Idempotent, [[link](https://restfulapi.net/idempotent-rest-apis/)], POST and PATCH are generally non-idempotent.
-   - Rest header, body, query parameters, content-type?
+   - Rest header, body, query parameters, content-type? Map<String, String>
    - backward compatibility, versioning, https://www.linkedin.com/advice/0/how-do-you-design-restful-api-supports#:~:text=Backward%20compatibility%20is%20the%20ability,new%20version%20of%20the%20API.
    - client server architecture based on requests - responses, various response format, flexible, stateless (means all info that needs already in request).
    - Async Rest example [[link](https://sanketdaru.com/blog/polling-model-async-rest-spring-boot/)], [[link](https://github.com/sanketdaru/async-jobs-over-restful-api)], [[link2](https://medium.com/@bubu.tripathy/a-beginners-guide-to-async-processing-in-a-spring-boot-application-a4c785a992f2)], [[responsiveness](https://jackynote.medium.com/optimizing-spring-boot-asynchronous-processing-a-comprehensive-guide-f9437ce3d14d)] [[link](https://www.javacodegeeks.com/2016/06/java-8-completablefuture-vs-parallel-stream.html)]
