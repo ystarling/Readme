@@ -32,7 +32,7 @@
      - Sequence of operations on objects, 
          input->intermediate operations ..filter, mapping, reducing, sorting, etc->terminal operation->output
      - aggregation functions [[link text itself](https://docs.google.com/document/d/1WO14-WGX7cPbBIZtQhvawQiXZKeFHCPIrJp_06EvnLA/edit)]
-     - repeat Streams, map, multiply, reduce, groupby, summarise, max, min, Function interfaces? [[link](https://www.youtube.com/watch?v=o1H6kMlCQ74&ab_channel=Bobocode)], [[link](https://medium.com/swlh/java-collectors-and-its-20-methods-2fc422920f18)]
+     - repeat Streams, map, multiply, reduce, groupby, summarise, max, min, Function interfaces? [[link](https://www.youtube.com/watch?v=o1H6kMlCQ74&ab_channel=Bobocode)], [[link](https://medium.com/swlh/java-collectors-and-its-20-methods-2fc422920f18)], [[github](https://github.com/bobocode-projects/java-core-exercises/tree/exercise/completed)]
    - Threads
      - Singleton class
      - Thread safe, DeadLock?
