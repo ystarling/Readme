@@ -260,8 +260,9 @@ https://www.gettex.de/en/etfs/
     - Our daily work is driven by Agile values, be focus, committed,
     - Each team works transparently making sure that all progress and knowledge shared.
     - 
+17. txt
+   -
 18. etc
-
 19. Frontend
    - Angular [[link](https://www.youtube.com/watch?v=pkTAFaR5LRM)], [[git](https://github.com/cornflourblue/angular-master-details-crud-example/tree/master)]
 20. d
