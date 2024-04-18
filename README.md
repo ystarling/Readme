@@ -261,10 +261,10 @@ https://www.gettex.de/en/etfs/
     - Each team works transparently making sure that all progress and knowledge shared.
     - 
 17. txt
-   -
+    - How to German Freelance [[link](https://www.iamexpat.de/career/entrepreneur-germany/going-freelance)]
 18. etc
 19. Frontend
-   - Angular [[link](https://www.youtube.com/watch?v=pkTAFaR5LRM)], [[git](https://github.com/cornflourblue/angular-master-details-crud-example/tree/master)]
+    - Angular [[link](https://www.youtube.com/watch?v=pkTAFaR5LRM)], [[git](https://github.com/cornflourblue/angular-master-details-crud-example/tree/master)]
 20. d
 21. e
 22. 
