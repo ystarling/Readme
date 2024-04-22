@@ -270,9 +270,9 @@ https://www.gettex.de/en/etfs/
     - 
 21. Git
     - git init
-git add .
-git remote add origin https://github.com/ystarling/cdr-service.git
-commit, push 
+    - git add .
+    - git remote add origin https://github.com/ystarling/cdr-service.git
+    - commit, push 
 22. 
 
 Markdown | Less | Pretty
