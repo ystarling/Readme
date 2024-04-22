@@ -268,7 +268,11 @@ https://www.gettex.de/en/etfs/
 20. Maven
     - mvn dependency:analyze
     - 
-21. e
+21. Git
+    - git init
+git add .
+git remote add origin https://github.com/ystarling/cdr-service.git
+commit, push 
 22. 
 
 Markdown | Less | Pretty
