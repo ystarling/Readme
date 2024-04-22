@@ -265,7 +265,9 @@ https://www.gettex.de/en/etfs/
 18. etc
 19. Frontend
     - Angular [[link](https://www.youtube.com/watch?v=pkTAFaR5LRM)], [[git](https://github.com/cornflourblue/angular-master-details-crud-example/tree/master)]
-20. d
+20. Maven
+    - mvn dependency:analyze
+    - 
 21. e
 22. 
 
