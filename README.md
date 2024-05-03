@@ -192,7 +192,7 @@ It is important to establish a data retention policy that defines how long data 
    - UML, [[link](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/#:~:text=Aggregation%20implies%20a%20relationship%20where,exist%20independent%20of%20the%20parent)].
       - Composition =has-a relationship between objects. relationship where the child cannot exist independent of the parent.
       - Aggregation= relationship where the child can exist independently of the parent.
-   - DDD [[link](https://medium.com/microtica/the-concept-of-domain-driven-design-explained-3184c0fd7c3f)]
+   - DDD [[link](https://medium.com/microtica/the-concept-of-domain-driven-design-explained-3184c0fd7c3f)], [[link](https://medium.com/raa-labs/part-1-domain-driven-design-like-a-pro-f9e78d081f10)]
       - The primary focus of the project is the core domain and domain logic. A domain consists of several subdomains that refer to different parts of the business logic. For example, an online retail store could have a product catalog, inventory, and delivery as its subdomains. Bounded contexts actually represent boundaries in which a certain subdomain is defined and applicable. specific bounded context, configuration, and dependencies.
       - Domain-driven design is a software engineering approach to solving a specific domain model. The solution circles around the business model by connecting execution to the key business principles.
 Common terminology between the domain experts and the development team includes domain logic, subdomains, bounded contexts, context maps, domain models, and ubiquitous language as a way of collaborating and improving the application model and solving any domain-related challenges.
