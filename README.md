@@ -223,7 +223,15 @@ Common terminology between the domain experts and the development team includes 
     - etc
 12. Linux
     - how to remote connect in Linux/Unix, SSH command? most common list commands
-    - 
+    - Commands: >
+      cd, ls, pwd  
+      ssh hostname command  
+      chmod  
+      top, ps, kill  
+      ping, ssh, scp, curl  
+      chmod u+rwx file.txt ,grants read, write, and execute permissions to the owner of the file.  
+      cat file.txt displays the contents of the file “file.txt”.  
+      ls -l, To view the permissions for a file  
 13. Agile
     - How are you start working on task? Jira, Task, Epic, User story, Scram, Kanban. Retrospective, Backlog, Sprint planning, short iteration.
     - what was your last task you working on?
