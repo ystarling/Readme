@@ -263,7 +263,9 @@ https://www.gettex.de/en/etfs/
     - 
 17. txt
     - How to German Freelance [[link](https://www.iamexpat.de/career/entrepreneur-germany/going-freelance)]
-18. etc
+    - 
+18. Company culture and fit
+    - [[link](https://www.newtraderu.com/2024/05/03/12-habits-of-unsuccessful-men-who-never-move-forward-in-life/)]
 19. Frontend
     - Angular [[link](https://www.youtube.com/watch?v=pkTAFaR5LRM)], [[git](https://github.com/cornflourblue/angular-master-details-crud-example/tree/master)]
 20. Maven
