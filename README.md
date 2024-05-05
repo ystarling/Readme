@@ -144,7 +144,7 @@ Authorization determines what resources a user can access.
    - NoSQL learn https://www.youtube.com/watch?v=c2M-rlkkT5o&ab_channel=BroCode
 4. ORM
    - JPA vs Hibernate, more then one difference?
-   - Lazy loading JPA/Hibernate
+   - Lazy loading JPA/Hibernate, Cascading
    - Optimistic Lock @Version
    - How to One to One mapping?
    - Jpa entity states: New, Managed, Detached(when Session closed), Removed.
@@ -155,6 +155,7 @@ Authorization determines what resources a user can access.
    - Liquibase vs Flyway, changelogs. Flyway uses SQL-based migration scripts, whereas. Liquibase uses XML, YAML, or JSON to define the database changes. [[link](https://www.linkedin.com/pulse/database-migration-flyway-vs-liquibase-rafael-porto-rodrigues#:~:text=Configuration%3A%20Flyway%20follows%20a%20convention,to%20define%20the%20database%20changes.)]
    - Hibernate audited, @Audited - generate table with suffix table_aud
    - Transactional manager in Hibernate
+   - @Modify, safety update or delete native queries
 5. REST
    - Rest vs Soap
    - Idempotent, [[link](https://restfulapi.net/idempotent-rest-apis/)], POST and PATCH are generally non-idempotent.
