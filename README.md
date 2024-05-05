@@ -42,9 +42,14 @@
      - Executors
      - Race condition. Occurs in programming when two or more execution threads modify a shared resource.
      - https://rjlfinn.medium.com/asynchronous-programming-in-java-d6410d53df4d
-     - ThreadLocal, ConcurrentHashMap, BlockingQueue, Collections.synchronizedCollection(new ArrayList<>()); atomic wrappers AtomicInteger.  
+     - ThreadLocal, ConcurrentHashMap, BlockingQueue, Collections.synchronizedCollection(new ArrayList<>()); Collections.synchronizedList(), atomic wrappers AtomicInteger.  
        Atomic classes allow us to perform atomic operations, which are thread-safe, without using synchronization.  
-     - 
+     - Concurrent Random Numbers, java.util.concurrent.ThreadLocalRandom , Math.random(),
+        ```
+        int[] array = {1, 2, 3, 4, 5, 6};
+        CopyOnWriteArrayList<Integer> list = new CopyOnWriteArrayList<>();
+        IntStream.of(array).parallel().forEach(list::add);
+        ```  
    - Collections
      - LinkedList vs ArrayList, pros & cons? LinkedList vs ArrayList (size capacity 10 by default).
        - LinkedList `fast for add and remove O(1), slow access O(n).`
