@@ -35,14 +35,16 @@
      - aggregation functions [[link text itself](https://docs.google.com/document/d/1WO14-WGX7cPbBIZtQhvawQiXZKeFHCPIrJp_06EvnLA/edit)]
      - repeat Streams, map, multiply, reduce, groupby, summarise, max, min, Function interfaces? [[link](https://www.youtube.com/watch?v=o1H6kMlCQ74&ab_channel=Bobocode)], [[link](https://medium.com/swlh/java-collectors-and-its-20-methods-2fc422920f18)], [[github](https://github.com/bobocode-projects/java-core-exercises/tree/exercise/completed)]
    - Threads
-     - Singleton class
+     - Singleton class, [[thread safety singleton](https://www.initgrep.com/posts/design-patterns/thread-safety-in-java-singleton-pattern)]
      - Thread safe, DeadLock?
-     - volatile, use fast cache in memory
+     - volatile, use fast cache in memory, visible for threads
      - Lock interface, locking, synchronize block
      - Executors
      - Race condition. Occurs in programming when two or more execution threads modify a shared resource.
      - https://rjlfinn.medium.com/asynchronous-programming-in-java-d6410d53df4d
-     - etc
+     - ThreadLocal, ConcurrentHashMap, BlockingQueue, Collections.synchronizedCollection(new ArrayList<>()); atomic wrappers AtomicInteger.  
+       Atomic classes allow us to perform atomic operations, which are thread-safe, without using synchronization.  
+     - 
    - Collections
      - LinkedList vs ArrayList, pros & cons? LinkedList vs ArrayList (size capacity 10 by default).
        - LinkedList `fast for add and remove O(1), slow access O(n).`
