@@ -131,7 +131,7 @@ Authorization determines what resources a user can access.
    - NoSql vs RDBMs, NoSQL(high velocity-speed, high handle volume data). [[link](https://www.geeksforgeeks.org/difference-between-relational-database-and-nosql/)]
    - ACID, transaction, isolation levels, anomalies, indexes?
    - what is connection pool? purpose
-   - SQL queries [[link](https://docs.google.com/document/d/1WO14-WGX7cPbBIZtQhvawQiXZKeFHCPIrJp_06EvnLA/edit)]
+   - SQL queries [[link](https://docs.google.com/document/d/1WO14-WGX7cPbBIZtQhvawQiXZKeFHCPIrJp_06EvnLA/edit)], [[sqlbolt](https://sqlbolt.com/lesson/select_queries_with_aggregates)]  
      ```
      For each role, find the average number of years employed by employees in that role
       select role, AVG(Years_employed) FROM Employees GROUP BY role;
