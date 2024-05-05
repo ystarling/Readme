@@ -36,6 +36,25 @@
      - repeat Streams, map, multiply, reduce, groupby, summarise, max, min, Function interfaces? [[link](https://www.youtube.com/watch?v=o1H6kMlCQ74&ab_channel=Bobocode)], [[link](https://medium.com/swlh/java-collectors-and-its-20-methods-2fc422920f18)], [[github](https://github.com/bobocode-projects/java-core-exercises/tree/exercise/completed)]
    - Threads
      - Singleton class, [[thread safety singleton](https://www.initgrep.com/posts/design-patterns/thread-safety-in-java-singleton-pattern)]
+       using Enum, Nested class, Double-Checked Locking,
+       ```
+         public class DoubleCheckedLockingSingleton {
+             private static volatile DoubleCheckedLockingSingleton instance;
+         
+             private DoubleCheckedLockingSingleton() { }
+         
+             public static DoubleCheckedLockingSingleton getInstance() {
+                 if (instance == null) {
+                     synchronized (DoubleCheckedLockingSingleton.class) {
+                         if (instance == null) {
+                             instance = new DoubleCheckedLockingSingleton();
+                         }
+                     }
+                 }
+                 return instance;
+             }
+         }
+       ```
      - Thread safe, DeadLock?
      - volatile, use fast cache in memory, visible for threads
      - Lock interface, locking, synchronize block
