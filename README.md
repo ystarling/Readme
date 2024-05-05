@@ -132,8 +132,56 @@ Authorization determines what resources a user can access.
    - ACID, transaction, isolation levels, anomalies, indexes?
    - what is connection pool? purpose
    - SQL queries [[link](https://docs.google.com/document/d/1WO14-WGX7cPbBIZtQhvawQiXZKeFHCPIrJp_06EvnLA/edit)]
+     ```
+     For each role, find the average number of years employed by employees in that role
+      select role, AVG(Years_employed) FROM Employees GROUP BY role;
+      
+     Find the total number of employee years worked in each building ✓
+      select building, sum(Years_employed) from employees group by building;
+      
+     Find the number of Employees of each role in the studio 
+      SELECT role, count() as count FROM employees group by role;
+      
+     Find the total number of years employed by all Engineers ✓
+      SELECT sum(Years_employed) FROM employees where role='Engineer';
+      
+     Find the number of movies each director has directed ✓
+      SELECT director, COUNT(id) as Num_movies_directed
+      FROM movies
+      GROUP BY director;
+      
+     Find the total domestic and international sales that can be attributed to each director ✓
+      SELECT Movies.director, sum(Domestic_sales +International_sales)
+      FROM Boxoffice
+       JOIN Movies
+         ON Movies.Id = Boxoffice.Movie_id
+       GROUP BY Director;
+      
+      /////
+      SELECT DISTINCT column, AGG_FUNC(column_or_expression), …
+      FROM mytable
+       JOIN another_table
+         ON mytable.column = another_table.column
+       WHERE constraint_expression
+       GROUP BY column
+       HAVING constraint_expression
+       ORDER BY column ASC/DESC
+       LIMIT count OFFSET COUNT;
+      //
+     ```  
    - sql joins, group by, avg() >, departments & employees salary [[link1](https://sqlbolt.com/)] [[link2](https://www.youtube.com/watch?v=d-SJmsgoUrw&ab_channel=CrackConcepts)]
    - SQL update script, ALTER TABLE table_name ADD column_name datatype;
+     ```
+     INSERT INTO boxoffice VALUES (4, 8.7, 340000000, 270000000);
+     UPDATE movies SET director = "John Lasseter" WHERE id = 2;
+     DELETE FROM movies where year < 2005;
+      
+     Add a column named Aspect_ratio with a FLOAT data type to store the aspect-ratio each movie was released in.
+     ALTER TABLE Movies
+     ADD COLUMN Aspect_ratio FLOAT DEFAULT 2.39;
+      
+     DROP TABLE IF EXISTS mytable;
+     ```  
    - Answer for question: How to change DB tables in the running environment? (manually without Liquibase), rolling updates
       - rolling update that doesn’t cause any downtime. [[link](https://thorben-janssen.com/update-database-schema-without-downtime/)]
       - The removal of the constraint itself is a backward-compatible operation.
