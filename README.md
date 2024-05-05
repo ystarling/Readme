@@ -170,7 +170,7 @@ Authorization determines what resources a user can access.
       //
 
      SELECT Director, AVG(Boxoffice.Rating) as rating FROM movies 
-      LEFT JOIN Boxoffice ON movies.id==Boxoffice.Movie_id GROUP BY movies.Director 
+      LEFT JOIN Boxoffice ON movies.id=Boxoffice.Movie_id GROUP BY movies.Director 
          HAVING rating > 8 ORDER BY rating DESC;
      ```  
    - sql joins, group by, avg() >, departments & employees salary [[link1](https://sqlbolt.com/)] [[link2](https://www.youtube.com/watch?v=d-SJmsgoUrw&ab_channel=CrackConcepts)]
