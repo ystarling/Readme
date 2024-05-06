@@ -235,6 +235,7 @@ Authorization determines what resources a user can access.
    - Api gateway? - An API gateway is a component of the app-delivery infrastructure that sits between clients and services and provides centralized handling of API communication between them. It also delivers security, policy enforcement, and monitoring and visibility across on-premises, multi-cloud, and hybrid environments.
    - Service dicovery(ex. Load Balancer) - automatically detecting devices and services on a computer network.
    - Load balancer - distribute the workload between different servers or applications, network traffic across a group of backend servers. Load balancers are used to distribute capacity during peak traffic times, and to increase reliability of applications.
+   - Distributed antipatterns, [[link](https://blog.bitsrc.io/10-microservice-anti-patterns-278bcb7f385d)] 
 7. Docker
    - What is docker container itself? [[link](https://www.docker.com/resources/what-container/#:~:text=A%20Docker%20container%20image%20is,tools%2C%20system%20libraries%20and%20settings.)]
       - A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
