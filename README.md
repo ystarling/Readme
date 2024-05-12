@@ -237,7 +237,8 @@ Authorization determines what resources a user can access.
 Exactly what the API gateway does will vary from one implementation to another. Some common functions include authentication, routing, rate limiting, billing, monitoring, analytics, policies, alerts, and security.  
    - Service dicovery(ex. Load Balancer) - automatically detecting devices and services on a computer network.
    - Load balancer - distribute the workload between different servers or applications, network traffic across a group of backend servers. Load balancers are used to distribute capacity during peak traffic times, and to increase reliability of applications.
-   - Distributed antipatterns, [[link](https://blog.bitsrc.io/10-microservice-anti-patterns-278bcb7f385d)] 
+   - Distributed antipatterns, [[link](https://blog.bitsrc.io/10-microservice-anti-patterns-278bcb7f385d)]
+   - Saga, Choreography: [[link](https://www.youtube.com/watch?v=6O5iJ7PKUhs)]
 7. Docker
    - What is docker container itself? [[link](https://www.docker.com/resources/what-container/#:~:text=A%20Docker%20container%20image%20is,tools%2C%20system%20libraries%20and%20settings.)]
       - A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
@@ -346,23 +347,23 @@ https://www.gettex.de/en/etfs/
     - Travel, [[ota](https://zoftify.com/blog/how-an-online-travel-agency-ota-back-office-software-works)], [[ota](https://xml.coverpages.org/OTA-2001B-200202.pdf)]
     - etc
 
-20. Maven
+16. Maven
     - mvn dependency:analyze
     - 
-21. Git
+17. Git
     - git init
     - git add .
     - git remote add origin https://github.com/ystarling/cdr-service.git
     - commit, push
-19. Frontend
+18. Frontend
     - Angular [[link](https://www.youtube.com/watch?v=pkTAFaR5LRM)], [[git](https://github.com/cornflourblue/angular-master-details-crud-example/tree/master)]
-17. txt
+19. txt
     - How to German Freelance [[link](https://www.iamexpat.de/career/entrepreneur-germany/going-freelance)]
     - 
-18. Company culture and fit
+20. Company culture and fit
     - [[unsuccessful man](https://www.newtraderu.com/2024/05/03/12-habits-of-unsuccessful-men-who-never-move-forward-in-life/)]
     - [[germanycoach](https://www.germanycareercoach.com/blog/six-strategies-for-improving-your-job-search-germany?ss_source=sscampaigns&ss_campaign_id=63b42be196e9211651d3eb09&ss_email_id=6633b812c7eb5d42b67988cd&ss_campaign_name=How+to+get+started+with+your+Germany+job+search+%5BPART+2%2F4%5D&ss_campaign_sent_date=2024-05-04T15%3A58%3A00Z)]
-16. Questions & Answers
+21. Questions & Answers
     - Can you tell me more about the team? Can you tell me more about the team I would be working in?
     - What would a typical day for me in this role look like?
     - What are the biggest challenges that I might face in this position?
