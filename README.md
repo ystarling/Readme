@@ -16,11 +16,11 @@
      - JVM inside, class loaders, rt.jar, bootstrap. [[link](https://medium.com/geekculture/java-backend-developer-interview-questions-pt-1-10-1c74c76442bd)],
        [[gc](https://stackify.com/what-is-java-garbage-collection/)]
      - Funtional interfaces java, purpose, examples? single abstract method, to avoid boilerplate using anonymous classes, Consumer, Predicate, Function, Supplier. Runnable, Callable, Comparable, 
-     - Garbage collector, Memory management, memory allocate. tuning GC1.
-       `heap=objects.`
-       `permgen(metaspace):classes, methods, static, string pool, metadata`
-       `stack: primitive objects, references.`
-       `eden space, new generation, old generation. heap max size`
+     - Garbage collector, Memory management, memory allocate. tuning GC1.  
+       `heap=objects.`  
+       `permgen(metaspace):classes, methods, static, string pool, metadata`  
+       `stack: primitive objects, references.`  
+       `eden space, new generation, old generation. heap max size`  
        [[link](https://diptendud.medium.com/java-memory-management-interview-questions-and-answers-204d7a249019)]  
        arguments: -XX:+PrintGCDetails. -XX:+UseSerialGC -Xms1024m -Xmx1024m -verbose:gc [[verbose](https://www.baeldung.com/java-verbose-gc)]  
        tuning JVM: visualVM, jmap -histo:live 7544, jConsole, Profiling tools intellij-idea-profiler/  
