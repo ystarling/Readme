@@ -374,15 +374,4 @@ https://www.gettex.de/en/etfs/
     - Each team works transparently making sure that all progress and knowledge shared.
     - 
 
-///
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-s
-
 
