@@ -233,7 +233,7 @@ Authorization determines what resources a user can access.
    - Service discovery is a mechanism by which services discover each other dynamically without the need for hard coding IP addresses or endpoint configuration.
    - https://blog.bitsrc.io/how-to-choose-microservices-boundaries-5c68b0b1af24
    - [kafka](https://medium.com/@shubhamkumbhar787/example-of-implementing-kafka-in-a-java-spring-boot-application-e271740df5ca)
-   - Api gateway? - An API gateway is a component of the app-delivery infrastructure that sits between clients and services and provides centralized handling of API communication between them. It also delivers security, policy enforcement, and monitoring and visibility across on-premises, multi-cloud, and hybrid environments.
+   - API Gateway? - An API gateway is a component of the app-delivery infrastructure that sits between clients and services and provides centralized handling of API communication between them. It also delivers security, policy enforcement, and monitoring and visibility across on-premises, multi-cloud, and hybrid environments.
      The API gateway intercepts all incoming requests and sends them through the API management system, which handles a variety of necessary functions.
 Exactly what the API gateway does will vary from one implementation to another. Some common functions include authentication, routing, rate limiting, billing, monitoring, analytics, policies, alerts, and security.  
    - Service dicovery(ex. Load Balancer) - automatically detecting devices and services on a computer network.
