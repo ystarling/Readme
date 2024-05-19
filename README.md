@@ -57,7 +57,7 @@
          }
        ```
      - Thread safe, DeadLock?
-     - volatile, use fast main memory, visible for threads
+     - volatile, use fast main memory, shared and visible for threads
      - Lock interface, locking, synchronize block
      - Executors
      - Race condition. Occurs in programming when two or more execution threads modify a shared resource.
