@@ -272,6 +272,14 @@ It is important to establish a data retention policy that defines how long data 
    - code refactoring how to? Better organization, Less code duplication, Easier maintenance, understandable, readable, structured, documented
    - code challenge -thinking simply not complex. Rest apis> dont use Feign! use WebClient!
    - time complexity Big On, [[link](https://aaronice.gitbook.io/lintcode/linked_list)], [[link](https://flexiple.com/algorithms/big-o-notation-cheat-sheet/)]
+     Following are the key time and space complexities:  
+   ```Constant: O(1)
+      Linear time: O(n)
+      Logarithmic time: O(n log n)
+      Quadratic time: O(n^2)
+      Exponential time: 2 ^(n)
+      Factorial time: O(n!)
+   ```  
    - https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html
    - TDD
    - Naming unit test. [UnitOfWork_StateUnderTest_ExpectedBehavior], Sum_NegativeNumberAs1stParam_ExceptionThrown().
