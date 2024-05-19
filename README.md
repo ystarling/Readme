@@ -271,7 +271,7 @@ It is important to establish a data retention policy that defines how long data 
 9. Clean Code and Uncle Bob, Craftmanship, Refactoring
    - code refactoring how to? Better organization, Less code duplication, Easier maintenance, understandable, readable, structured, documented
    - code challenge -thinking simply not complex. Rest apis> dont use Feign! use WebClient!
-   - time complexity Big On, [[link](https://aaronice.gitbook.io/lintcode/linked_list)], [[link](https://flexiple.com/algorithms/big-o-notation-cheat-sheet/)]
+   - time complexity Big On, [[link](https://aaronice.gitbook.io/lintcode/linked_list)], [[link](https://flexiple.com/algorithms/big-o-notation-cheat-sheet/)]  
      Following are the key time and space complexities:  
    ```Constant: O(1)
       Linear time: O(n)
