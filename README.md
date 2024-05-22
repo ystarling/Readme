@@ -251,6 +251,7 @@ Exactly what the API gateway does will vary from one implementation to another. 
    - https://docs.docker.com/engine/swarm/
    - https://www.youtube.com/watch?v=i7ABlHngi1Q&ab_channel=TravisMedia
    - https://medium.com/@bharathy.poovalingam/spring-boot-with-docker-d4129a353f87
+   - https://docs.docker.com/engine/swarm/raft/
    - 
 8. K8s
    - K8s question: if your service in K8s is down what is your step to do? service describe, readiness probe.
