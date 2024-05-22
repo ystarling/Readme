@@ -80,6 +80,12 @@
      - implement Comparable, or anonymous class Comparator
      - Iterator used for change mutable objects like created by List.of
      - HashSet vs TreeSet, [[link](https://www.javatpoint.com/hashset-vs-treeset-java)]
+   - enum,
+     ```
+     public static Month findByValue(String value) {
+        return Arrays.stream(values()).filter(month -> month.getValue().equalsIgnoreCase(value)).findFirst().orElseThrow(IllegalArgumentException::new);
+     }
+     ``` 
    - Java 11 vs 17, var keyword without specifing type, Text blocks """text""", Records, S.toList() instead of S.collect(Collectors.toList())
    - GoF patterns
      - Remember most usage patterns: Strategy(lambda!), Observer, Decorator, Iterator, Builder.
