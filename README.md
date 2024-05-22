@@ -83,7 +83,8 @@
    - enum,
      ```
      public static Month findByValue(String value) {
-        return Arrays.stream(values()).filter(month -> month.getValue().equalsIgnoreCase(value)).findFirst().orElseThrow(IllegalArgumentException::new);
+        return Arrays.stream(values()).filter(month -> month.getValue().equalsIgnoreCase(value)).findFirst()
+                       .orElseThrow(IllegalArgumentException::new);
      }
      ``` 
    - Java 11 vs 17, var keyword without specifing type, Text blocks """text""", Records, S.toList() instead of S.collect(Collectors.toList())
