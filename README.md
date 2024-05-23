@@ -308,6 +308,7 @@ Common terminology between the domain experts and the development team includes 
     - Design Url Shortening Service, [[link](https://youtu.be/eCLqmPBIEYs?t=709)], [[link](https://www.designgurus.io/blog/url-shortening)], [[link](https://www.geeksforgeeks.org/system-design-url-shortening-service/)], [[link](https://medium.com/@sandeep4.verma/system-design-scalable-url-shortener-service-like-tinyurl-106f30f23a82)], [[link](https://www.youtube.com/watch?v=CihfMVePlcQ&ab_channel=CachedInsights)]
     - https://github.com/ystarling/system-design, https://medium.com/java-content-hub/implementing-event-driven-interfaces-in-java-c620797f63dc
     - https://www.designgurus.io/blog/step-by-step-guide
+    - https://www.geeksforgeeks.org/monolithic-vs-microservices-architecture/
 11. CI/CD
     - feature toggle, how to manage if one main branch
     - merge vs rebase
