@@ -302,11 +302,11 @@ Common terminology between the domain experts and the development team includes 
       - subject,
    - Refactoring, [[link](https://www.youtube.com/watch?v=T3iTI2uEwkc&ab_channel=PragmaticWays)], [[link](https://www.youtube.com/watch?v=4P9qkbajv4g&ab_channel=Globant)], [[github](https://github.com/Programming-with-Mati/fp-legacy-refactor-camp/tree/solution)]
    - Static and dynamic code analysis
-10. Design
+10. System Design
     - Spotify, music streaming [[link](https://www.youtube.com/watch?v=_K-eupuDVEc&ab_channel=IGotAnOffer%3AEngineering)]
     - Amazon System Design Interview: Design Parking Garage, [[link](https://www.youtube.com/watch?v=NtMvNh0WFVM&ab_channel=Exponent)]
     - Design Url Shortening Service, [[link](https://youtu.be/eCLqmPBIEYs?t=709)], [[link](https://www.designgurus.io/blog/url-shortening)], [[link](https://www.geeksforgeeks.org/system-design-url-shortening-service/)], [[link](https://medium.com/@sandeep4.verma/system-design-scalable-url-shortener-service-like-tinyurl-106f30f23a82)], [[link](https://www.youtube.com/watch?v=CihfMVePlcQ&ab_channel=CachedInsights)]
-    - etc
+    - https://github.com/ystarling/system-design, https://medium.com/java-content-hub/implementing-event-driven-interfaces-in-java-c620797f63dc
     - https://www.designgurus.io/blog/step-by-step-guide
 11. CI/CD
     - feature toggle, how to manage if one main branch
