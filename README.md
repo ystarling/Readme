@@ -7,7 +7,7 @@
        - As a general rule, you should use an abstract class when creating a base class that needs to be inherited by other classes in a class hierarchy. If you need to define a behavior that can be implemented by multiple unrelated classes, you should use an interface.
        - Abstract classes are particularly useful when you need to define a hierarchy of classes that share common attributes and behaviors.
        - For example, interfaces are an excellent choice when a class needs to inherit behavior from multiple sources.
-     - loose coupling & high cohesion
+     - Loose coupling & high cohesion, tight coupling
      - Equals & HashCode, hashCode & equals contract? busket 1, 2, hashcode collision.
        `if two objects equal then hashcode should be the same`, [[link](https://medium.com/coding-corpus/java-important-methods-equals-hashcode-and-compareto-6adcdf2814c3)]
      - Lambda expression, Anonymous classes
