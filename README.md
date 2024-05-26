@@ -80,6 +80,19 @@
      - implement Comparable, or anonymous class Comparator
      - Iterator used for change mutable objects like created by List.of
      - HashSet vs TreeSet, [[link](https://www.javatpoint.com/hashset-vs-treeset-java)]
+     - HashMap uses the array of Nodes  
+       ```
+          transient Node<K,V>[] table; 
+          class Node<K,V> {
+             final int hash;
+             final K key;
+             V value;
+             Node<K,V> next;
+             // Some utility methods
+         }
+       ```
+      - etc
+      - 
    - enum,
      ```
      public static Month findByValue(String value) {
