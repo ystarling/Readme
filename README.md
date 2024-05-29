@@ -60,6 +60,20 @@
      - volatile, use fast main memory, shared and visible for threads
      - Lock interface, locking, synchronize block
      - Executors
+       ```
+         SingleThreadExecutor
+         FixedThreadPool(n)+
+         CachedThreadPool
+         ScheduledExecutor
+         
+         ExecutorService executor = Executors.newSingleThreadExecutor();
+         ExecutorService fixedPool = Executors.newFixedThreadPool(2);
+         ExecutorService executorService = Executors.newCachedThreadPool();
+         ScheduledExecutorService scheduledExecService = Executors.newScheduledThreadPool(1);
+         
+         class Task implements Callable<String>
+         Future<String> result = executorService.submit(callableTask);
+       ```
      - Race condition. Occurs in programming when two or more execution threads modify a shared resource.
      - https://rjlfinn.medium.com/asynchronous-programming-in-java-d6410d53df4d
      - ThreadLocal, ConcurrentHashMap, BlockingQueue, Collections.synchronizedCollection(new ArrayList<>()); Collections.synchronizedList(), atomic wrappers AtomicInteger.  
