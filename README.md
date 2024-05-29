@@ -60,6 +60,7 @@
      - volatile, use fast main memory, shared and visible for threads
      - Lock interface, locking, synchronize block
      - Executors
+       The java.util.concurrent.Executors provide factory methods that are being used to create ThreadPools of worker threads. Threads get free, they pick up the next task from this Queue.  
        ```
          SingleThreadExecutor
          FixedThreadPool(n)+
