@@ -10,8 +10,9 @@
      - Loose coupling & high cohesion, tight coupling
      - Equals & HashCode, hashCode & equals contract? busket 1, 2, hashcode collision.
        `if two objects equal then hashcode should be the same`, [[link](https://medium.com/coding-corpus/java-important-methods-equals-hashcode-and-compareto-6adcdf2814c3)]
-     - Lambda expression, Anonymous classes
-     - anonymous function, lambda, functional interface, default methods, do you know any functional methods?
+     - Lambda expression, Anonymous classes  
+     - anonymous function, lambda, functional interface, default methods, do you know any functional methods?  
+     - Funtional interfaces java, purpose, examples? single abstract method, to avoid boilerplate using anonymous classes, Consumer, Predicate, Function, Supplier. Runnable, Callable, Comparable,  
      - Immutable class? class final, private final members, initialise everything in constructor, deep copy, no setters! [[link](https://systemweakness.com/immutable-objects-in-java-using-builder-pattern-with-functional-interface-fa8885771cda)], [[records, withers, builders](https://www.sonarsource.com/blog/builders-withers-and-records-java-s-path-to-immutability/)], by reflection
      - JVM inside, class loaders, rt.jar, bootstrap. [[link](https://medium.com/geekculture/java-backend-developer-interview-questions-pt-1-10-1c74c76442bd)],
        [[gc](https://stackify.com/what-is-java-garbage-collection/)]
@@ -20,8 +21,7 @@
           -XX:MaxPermSize =java.lang.OutOfMemoryError
           -Xms, Xmx
           -Xss =java.lang.StackOverFlowError
-       ```
-     - Funtional interfaces java, purpose, examples? single abstract method, to avoid boilerplate using anonymous classes, Consumer, Predicate, Function, Supplier. Runnable, Callable, Comparable, 
+       ``` 
      - Garbage collector, Memory management, memory allocate. tuning GC1.  
        `heap=objects.`  
        `permgen(metaspace):classes, methods, static, string pool, metadata`  
