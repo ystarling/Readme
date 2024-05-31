@@ -8,7 +8,7 @@
        - Abstract classes are particularly useful when you need to define a hierarchy of classes that share common attributes and behaviors.
        - For example, interfaces are an excellent choice when a class needs to inherit behavior from multiple sources.
      - Loose coupling & high cohesion, tight coupling
-     - Equals & HashCode, hashCode & equals contract? busket 1, 2, hashcode collision.
+     - Equals & HashCode, hashCode & equals contract? bucket 1, 2, hashcode collision.
        `if two objects equal then hashcode should be the same`, [[link](https://medium.com/coding-corpus/java-important-methods-equals-hashcode-and-compareto-6adcdf2814c3)]
      - Lambda expression, Anonymous classes  
      - anonymous function, lambda, functional interface, default methods, do you know any functional methods?  
