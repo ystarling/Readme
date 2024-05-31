@@ -30,7 +30,8 @@
        [[link](https://diptendud.medium.com/java-memory-management-interview-questions-and-answers-204d7a249019)]  
        arguments: -XX:+PrintGCDetails. -XX:+UseSerialGC -Xms1024m -Xmx1024m -verbose:gc [[verbose](https://www.baeldung.com/java-verbose-gc)]  
        tuning JVM: visualVM, jmap -histo:live 7544, jConsole, Profiling tools intellij-idea-profiler/
-       [[dzone](https://dzone.com/articles/java-memory-management)]
+       [[dzone](https://dzone.com/articles/java-memory-management)]  
+       finalize(), gc()  
      - What is it memory leak, how to detect?  https://www.javamadesoeasy.com/2017/03/top-30-jvmjava-virtual-machine.html?m=1
      - class Objects.
      - weak, strong, soft, phantom references: [[link](https://www.baeldung.com/java-reference-types)]  
