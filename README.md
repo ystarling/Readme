@@ -248,7 +248,7 @@ Authorization determines what resources a user can access.
      ```  
    - sql joins, group by, avg() >, departments & employees salary [[link1](https://sqlbolt.com/)] [[link2](https://www.youtube.com/watch?v=d-SJmsgoUrw&ab_channel=CrackConcepts)]
      ```
-     [Student] -> [student_course] <- [course]
+     Tables: [Student] -> [student_course] <- [course]
       SELECT
         student.first_name,
         student.last_name,
