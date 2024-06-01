@@ -216,6 +216,7 @@ Authorization determines what resources a user can access.
       LEFT JOIN Boxoffice ON movies.id=Boxoffice.Movie_id GROUP BY movies.Director 
          HAVING rating > 8 ORDER BY rating DESC;
 
+      //
      Find Second Highest Salary in SQL:
      SELECT DISTINCT salary 
      FROM employee 
