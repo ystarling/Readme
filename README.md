@@ -217,7 +217,6 @@ Authorization determines what resources a user can access.
          HAVING rating > 8 ORDER BY rating DESC;
 
      Find Second Highest Salary in SQL:
-
      SELECT DISTINCT salary 
      FROM employee 
      ORDER BY salary DESC LIMIT 1,1;
