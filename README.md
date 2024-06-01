@@ -114,7 +114,7 @@
              // Some utility methods
          }
        ```
-      - etc
+      - TreeMap offers O(log N) insertion and retrieval time. TreeMap implements Red-Black Tree. TreeMap sorts all its entries according to their natural ordering. For an integer, this would mean ascending order and for strings, alphabetical order.
       - 
    - enum,
      ```
