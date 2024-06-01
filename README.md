@@ -197,56 +197,68 @@ Authorization determines what resources a user can access.
    - what is connection pool? purpose
    - SQL queries [[link](https://docs.google.com/document/d/1WO14-WGX7cPbBIZtQhvawQiXZKeFHCPIrJp_06EvnLA/edit)], [[sqlbolt](https://sqlbolt.com/lesson/select_queries_with_aggregates)]  
      ```
-     For each role, find the average number of years employed by employees in that role
-      select role, AVG(Years_employed) FROM Employees GROUP BY role;
-      
-     Find the total number of employee years worked in each building ✓
-      select building, sum(Years_employed) from employees group by building;
-      
-     Find the number of Employees of each role in the studio 
-      SELECT role, count() as count FROM employees group by role;
-      
-     Find the total number of years employed by all Engineers ✓
-      SELECT sum(Years_employed) FROM employees where role='Engineer';
-      
-     Find the number of movies each director has directed ✓
-      SELECT director, COUNT(id) as Num_movies_directed
-      FROM movies
-      GROUP BY director;
-      
-     Find the total domestic and international sales that can be attributed to each director ✓
-      SELECT Movies.director, sum(Domestic_sales +International_sales)
-      FROM Boxoffice
-       JOIN Movies
-         ON Movies.Id = Boxoffice.Movie_id
-       GROUP BY Director;
-      
-      /////
-      SELECT DISTINCT column, AGG_FUNC(column_or_expression), …
-      FROM mytable
-       JOIN another_table
-         ON mytable.column = another_table.column
-       WHERE constraint_expression
-       GROUP BY column
-       HAVING constraint_expression
-       ORDER BY column ASC/DESC
-       LIMIT count OFFSET COUNT;
-      //
-
-     SELECT Director, AVG(Boxoffice.Rating) as rating FROM movies 
-      LEFT JOIN Boxoffice ON movies.id=Boxoffice.Movie_id GROUP BY movies.Director 
-         HAVING rating > 8 ORDER BY rating DESC;
-
-      //
-     Find Second Highest Salary in SQL:
-     SELECT DISTINCT salary 
-     FROM employee 
-     ORDER BY salary DESC LIMIT 1,1;
-
-     SELECT MAX(SALARY) FROM employees 
-     WHERE SALARY < (SELECT MAX(SALARY) FROM employees);
+        For each role, find the average number of years employed by employees in that role
+         select role, AVG(Years_employed) FROM Employees GROUP BY role;
+         
+        Find the total number of employee years worked in each building ✓
+         select building, sum(Years_employed) from employees group by building;
+         
+        Find the number of Employees of each role in the studio 
+         SELECT role, count() as count FROM employees group by role;
+         
+        Find the total number of years employed by all Engineers ✓
+         SELECT sum(Years_employed) FROM employees where role='Engineer';
+         
+        Find the number of movies each director has directed ✓
+         SELECT director, COUNT(id) as Num_movies_directed
+         FROM movies
+         GROUP BY director;
+         
+        Find the total domestic and international sales that can be attributed to each director ✓
+         SELECT Movies.director, sum(Domestic_sales +International_sales)
+         FROM Boxoffice
+          JOIN Movies
+            ON Movies.Id = Boxoffice.Movie_id
+          GROUP BY Director;
+         
+         /////
+         SELECT DISTINCT column, AGG_FUNC(column_or_expression), …
+         FROM mytable
+          JOIN another_table
+            ON mytable.column = another_table.column
+          WHERE constraint_expression
+          GROUP BY column
+          HAVING constraint_expression
+          ORDER BY column ASC/DESC
+          LIMIT count OFFSET COUNT;
+         //
+   
+        SELECT Director, AVG(Boxoffice.Rating) as rating FROM movies 
+         LEFT JOIN Boxoffice ON movies.id=Boxoffice.Movie_id GROUP BY movies.Director 
+            HAVING rating > 8 ORDER BY rating DESC;
+   
+         //
+        Find Second Highest Salary in SQL:
+        SELECT DISTINCT salary 
+        FROM employee 
+        ORDER BY salary DESC LIMIT 1,1;
+   
+        SELECT MAX(SALARY) FROM employees 
+        WHERE SALARY < (SELECT MAX(SALARY) FROM employees);
      ```  
    - sql joins, group by, avg() >, departments & employees salary [[link1](https://sqlbolt.com/)] [[link2](https://www.youtube.com/watch?v=d-SJmsgoUrw&ab_channel=CrackConcepts)]
+     ```
+     [Student] -> [student_course] <- [course]
+      SELECT
+        student.first_name,
+        student.last_name,
+        course.name
+      FROM student
+      JOIN student_course
+        ON student.id = student_course.student_id
+      JOIN course
+        ON course.id = student_course.course_id;
+     ```
    - SQL update script, ALTER TABLE table_name ADD column_name datatype;
      ```
      INSERT INTO boxoffice VALUES (4, 8.7, 340000000, 270000000);
