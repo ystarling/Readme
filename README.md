@@ -291,7 +291,7 @@ Authorization determines what resources a user can access.
    - Opimistic lock? jpa, hibernate, entity stages, detached? Transient(Created), Managed, Detached, Removed
    - Liquibase vs Flyway, changelogs. Flyway uses SQL-based migration scripts, whereas. Liquibase uses XML, YAML, or JSON to define the database changes. [[link](https://www.linkedin.com/pulse/database-migration-flyway-vs-liquibase-rafael-porto-rodrigues#:~:text=Configuration%3A%20Flyway%20follows%20a%20convention,to%20define%20the%20database%20changes.)]
    - Hibernate audited, @Audited - generate table with suffix table_aud
-   - Transactional manager in Hibernate
+   - Transactional manager in Hibernate, other vendors, @EnableTransactionManagement, PlatformTransactionManager
    - @Modify, safety update or delete native queries
 5. REST
    - Rest vs Soap
