@@ -102,7 +102,8 @@
      - implement Comparable, or anonymous class Comparator
      - Iterator used for change mutable objects like created by List.of
      - HashSet vs TreeSet, [[link](https://www.javatpoint.com/hashset-vs-treeset-java)]
-     - HashMap uses the array of Nodes, capacity=16, loadfactor=0.75  
+     - HashMap uses the array of Nodes, capacity=16, loadfactor=0.75.
+       HashMap offers O(1) insertion and retrieval time.  
        ```
           transient Node<K,V>[] table; 
           class Node<K,V> {
