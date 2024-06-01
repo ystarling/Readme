@@ -101,25 +101,25 @@
      - fast fail, fail safe
      - implement Comparable, or anonymous class Comparator.
        Comparable is meant for objects with natural ordering which means the object itself must know how it is to be ordered. If any class implements Comparable interface in Java then collection of that object either List or Array can be sorted automatically by using Collections.sort() or Arrays.sort() method and objects will be sorted based on there natural order defined by CompareTo method.
-    ```
-       class Movie implements Comparable<Movie> {
-          private int year;
-          public int compareTo(Movie m)
-          {
-              return this.year - m.year;
+       ```
+          class Movie implements Comparable<Movie> {
+             private int year;
+             public int compareTo(Movie m)
+             {
+                 return this.year - m.year;
+             }
           }
-       }
-       
-       class NameCompare implements Comparator<Movie> {
-          public int compare(Movie m1, Movie m2)
-          {
-              return m1.getName().compareTo(m2.getName());
+          
+          class NameCompare implements Comparator<Movie> {
+             public int compare(Movie m1, Movie m2)
+             {
+                 return m1.getName().compareTo(m2.getName());
+             }
           }
-       }
-   
-       NameCompare nameCompare = new NameCompare();
-       Collections.sort(list, nameCompare);
-    ```
+      
+          NameCompare nameCompare = new NameCompare();
+          Collections.sort(list, nameCompare);
+       ```
      - Iterator used for change mutable objects like created by List.of
      - HashSet vs TreeSet, [[link](https://www.javatpoint.com/hashset-vs-treeset-java)]
      - HashMap uses the array of Nodes, capacity=16, loadfactor=0.75.
