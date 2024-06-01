@@ -215,6 +215,15 @@ Authorization determines what resources a user can access.
      SELECT Director, AVG(Boxoffice.Rating) as rating FROM movies 
       LEFT JOIN Boxoffice ON movies.id=Boxoffice.Movie_id GROUP BY movies.Director 
          HAVING rating > 8 ORDER BY rating DESC;
+
+     Find Second Highest Salary in SQL:
+
+     SELECT DISTINCT salary 
+     FROM employee 
+     ORDER BY salary DESC LIMIT 1,1;
+
+     SELECT MAX(SALARY) FROM employees 
+     WHERE SALARY < (SELECT MAX(SALARY) FROM employees);
      ```  
    - sql joins, group by, avg() >, departments & employees salary [[link1](https://sqlbolt.com/)] [[link2](https://www.youtube.com/watch?v=d-SJmsgoUrw&ab_channel=CrackConcepts)]
    - SQL update script, ALTER TABLE table_name ADD column_name datatype;
