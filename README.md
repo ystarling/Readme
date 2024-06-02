@@ -36,7 +36,8 @@
     There are two phases in this algorithm: mark followed by sweep.
     When a Java object is created in the heap, it has a mark bit that is set to 0 (false).
     During the mark phase, the garbage collector traverses object trees starting at their roots. When an object is reachable from the root, the mark bit is set to 1 (true). Meanwhile, the mark bits for unreachable objects is unchanged.
-    During the sweep phase, the garbage collector traverses the heap, reclaiming memory from all items with a mark bit of 0 (false).  
+    During the sweep phase, the garbage collector traverses the heap, reclaiming memory from all items with a mark bit of 0 (false).
+     - Short-lived objects tend to be collected more frequently in the young generation (newly created objects), while long-lived objects are managed in the old generation.  
      - What is it memory leak, how to detect?  https://www.javamadesoeasy.com/2017/03/top-30-jvmjava-virtual-machine.html?m=1
      - class Objects.
      - weak, strong, soft, phantom references: [[link](https://www.baeldung.com/java-reference-types)]  
