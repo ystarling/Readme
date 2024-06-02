@@ -44,7 +44,8 @@
      - repeat Streams, map, multiply, reduce, groupby, summarise, max, min, Function interfaces? [[link](https://www.youtube.com/watch?v=o1H6kMlCQ74&ab_channel=Bobocode)], [[link](https://medium.com/swlh/java-collectors-and-its-20-methods-2fc422920f18)], [[github](https://github.com/bobocode-projects/java-core-exercises/tree/exercise/completed)]
      - examples
        ```
-          Map<String, Long> groupByGender = employees.stream().collect(Collectors.groupingBy(Emloyee::getGender, Collectors.counting()));
+          Map<String, Long> groupByGender = employees.stream()
+             .collect(Collectors.groupingBy(Emloyee::getGender, Collectors.counting()));
        ```
    - Threads
      - Singleton class, [[thread safety singleton](https://www.initgrep.com/posts/design-patterns/thread-safety-in-java-singleton-pattern)]
