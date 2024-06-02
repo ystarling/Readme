@@ -31,7 +31,12 @@
        arguments: -XX:+PrintGCDetails. -XX:+UseSerialGC -Xms1024m -Xmx1024m -verbose:gc [[verbose](https://www.baeldung.com/java-verbose-gc)]  
        tuning JVM: visualVM, jmap -histo:live 7544, jConsole, Profiling tools intellij-idea-profiler/
        [[dzone](https://dzone.com/articles/java-memory-management)]  
-       finalize(), gc()  
+       finalize(), gc()
+     - The Java garbage collection process uses a mark-and-sweep algorithm. The Java garbage collection process uses a mark-and-sweep algorithm. Here’s how that works:
+    There are two phases in this algorithm: mark followed by sweep.
+    When a Java object is created in the heap, it has a mark bit that is set to 0 (false).
+    During the mark phase, the garbage collector traverses object trees starting at their roots. When an object is reachable from the root, the mark bit is set to 1 (true). Meanwhile, the mark bits for unreachable objects is unchanged.
+    During the sweep phase, the garbage collector traverses the heap, reclaiming memory from all items with a mark bit of 0 (false).  
      - What is it memory leak, how to detect?  https://www.javamadesoeasy.com/2017/03/top-30-jvmjava-virtual-machine.html?m=1
      - class Objects.
      - weak, strong, soft, phantom references: [[link](https://www.baeldung.com/java-reference-types)]  
