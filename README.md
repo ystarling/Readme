@@ -155,7 +155,7 @@
      ``` 
    - Java 11 vs 17, var keyword without specifing type, Text blocks """text""", Records, S.toList() instead of S.collect(Collectors.toList())
    - GoF patterns
-     - Remember most usage patterns: Strategy(lambda!), Observer, Decorator, Iterator, Builder.
+     - Remember most usage patterns: Observer, Decorator, Iterator, Builder, Strategy(lambda!)
      - BandOf4 patterns? what you use? Observer, Proxy, Iterator vs Iterable? Adapter, Decorator, Facade.
      - Decorator pattern(structural), decor. [[link](https://medium.com/analytics-vidhya/simplify-strategy-using-lambda-expression-40195d1445ea)]
      - https://refactoring.guru/
