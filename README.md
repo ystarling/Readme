@@ -107,6 +107,7 @@
      - LinkedList vs ArrayList, pros & cons? LinkedList vs ArrayList (size capacity 10 by default).
        - LinkedList `fast for add and remove O(1), slow access O(n).`
        - ArrayList `fast random access O(1), but slow add and delete!`
+       - Linked lists, a versatile data structure, consist of nodes, each holding data and a reference to the next node in the sequence.
      - public interface Collection<E> extends Iterable<E>
      - thread safe Collections?
      - fast fail, fail safe
