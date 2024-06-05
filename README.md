@@ -147,6 +147,9 @@
          }
        ```
       - TreeMap offers O(log N) insertion and retrieval time. TreeMap implements Red-Black Tree. TreeMap sorts all its entries according to their natural ordering. For an integer, this would mean ascending order and for strings, alphabetical order.
+      - Binary Search and Limitations
+        Binary search, a more efficient algorithm, only works on sorted lists.  
+        Binary Search is divide and conquer approach to search an element from the list of sorted element. In Linked List we can do binary search but it has time complexity O(n) that is same as what we have for linear search which makes Binary Search inefficient to use in Linked List.  
       - 
    - enum,
      ```
