@@ -54,7 +54,7 @@
              .collect(Collectors.groupingBy(Emloyee::getGender, Collectors.counting()));
        ```
      - https://4comprehension.com/the-ultimate-guide-to-the-java-stream-api-groupingby-collector/
-     - groupBy
+     - groupingBy, https://medium.com/@dudkamv/java-streams-and-collectors-a-comprehensive-guide-3ce4cd1b311f
        ```
           List<Employee> employees = // Assume a list of employees
           Map<Department, Double> averageSalaryByDepartment = employees.stream()
