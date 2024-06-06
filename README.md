@@ -54,7 +54,13 @@
              .collect(Collectors.groupingBy(Emloyee::getGender, Collectors.counting()));
        ```
      - https://4comprehension.com/the-ultimate-guide-to-the-java-stream-api-groupingby-collector/
-     - 
+     - groupBy
+       ```
+          List<Employee> employees = // Assume a list of employees
+          Map<Department, Double> averageSalaryByDepartment = employees.stream()
+             .collect(Collectors.groupingBy(Employee::getDepartment,
+                                   Collectors.averagingDouble(Employee::getSalary)));
+       ```
    - Threads
      - Singleton class, [[thread safety singleton](https://www.initgrep.com/posts/design-patterns/thread-safety-in-java-singleton-pattern)]
        using Enum, Nested class, Double-Checked Locking,
