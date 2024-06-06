@@ -293,7 +293,8 @@ Authorization determines what resources a user can access.
      ADD COLUMN Aspect_ratio FLOAT DEFAULT 2.39;
       
      DROP TABLE IF EXISTS mytable;
-     ```  
+     ```
+   - Liquibase uses the DATABASECHANGELOGLOCK (DBCLL) table to ensure only one instance of Liquibase runs at a time. If the table does not exist in the database, Liquibase creates one automatically. When you make a database update, Liquibase reads from the DATABASECHANGELOG table to determine which changesets need to run.    
    - Answer for question: How to change DB tables in the running environment? (manually without Liquibase), rolling updates
       - rolling update that doesn’t cause any downtime. [[link](https://thorben-janssen.com/update-database-schema-without-downtime/)]
       - The removal of the constraint itself is a backward-compatible operation.
