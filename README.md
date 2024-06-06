@@ -53,6 +53,8 @@
           Map<String, Long> groupByGender = employees.stream()
              .collect(Collectors.groupingBy(Emloyee::getGender, Collectors.counting()));
        ```
+     - https://4comprehension.com/the-ultimate-guide-to-the-java-stream-api-groupingby-collector/
+     - 
    - Threads
      - Singleton class, [[thread safety singleton](https://www.initgrep.com/posts/design-patterns/thread-safety-in-java-singleton-pattern)]
        using Enum, Nested class, Double-Checked Locking,
