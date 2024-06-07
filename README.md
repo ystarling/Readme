@@ -391,6 +391,7 @@ It is important to establish a data retention policy that defines how long data 
       Factorial time: O(n!)
    ```  
    - https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html
+   - https://www.youtube.com/watch?v=wSDyiEjhp8k
    - TDD
    - Naming unit test. [UnitOfWork_StateUnderTest_ExpectedBehavior], Sum_NegativeNumberAs1stParam_ExceptionThrown().
    - UML, [[link](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-aggregation-vs-composition/#:~:text=Aggregation%20implies%20a%20relationship%20where,exist%20independent%20of%20the%20parent)].
