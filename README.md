@@ -506,7 +506,8 @@ I’m looking for the opportunity to expand my learning, put to use my skills an
 My expectations for the company would be to provide me healthy work environment, job security, opportunities to grow personally and professionally. I want to work with like minded people who share the same values as me.
 Being part of a team where the team matters. Working in a diverse international team, where everyone is eager to learn and share with each other and appreciating the different backgrounds and experiences.
 
-    - e
+    - Why we have to hire you?
+      My educational background and professional experience align closely with the requirements of this role.
     - e
     - e
     - e
