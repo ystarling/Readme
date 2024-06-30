@@ -508,6 +508,7 @@ Being part of a team where the team matters. Working in a diverse international 
 
     - Why we have to hire you?
       My educational background and professional experience align closely with the requirements of this role.
+      I want to work for this company because I believe I can make a positive contribution to its success. I have the skills and experience necessary to help the company reach its goals, and I am passionate about the company’s mission and values. Additionally, I am excited by the potential for growth and development opportunities that this role offers.  
     - e
     - e
     - e
