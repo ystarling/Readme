@@ -495,6 +495,22 @@ https://www.gettex.de/en/etfs/
     - As we have 8 separate teams always dedicated always PO, 
     - Our daily work is driven by Agile values, be focus, committed,
     - Each team works transparently making sure that all progress and knowledge shared.
-    - 
+    - Tell me about yourself?  
+      dd
+    - What can we expect from you?  
+      You can expect me to behave as a professional engineer, to approach my work assignments thoughtfully, to treat my colleagues and managers respectfully, and to expect the same.
+    - What do you expect from our company? What are your expectations from our company? What are your expectations from us? What are your expectations of the next company at which you will be working?  
+      grow professionally with the company. I will work for the company’s goals and targets and in return, I expect to grow professionally in my career path with the company.
+      You need to start with - That’s a good question. Thank you for asking.
+I’m looking for the opportunity to expand my learning, put to use my skills and experience, work in a team that is inclusive and an environment that helps propel my growth beyond the job descriptions.
+My expectations for the company would be to provide me healthy work environment, job security, opportunities to grow personally and professionally. I want to work with like minded people who share the same values as me.
+Being part of a team where the team matters. Working in a diverse international team, where everyone is eager to learn and share with each other and appreciating the different backgrounds and experiences.
+
+    - e
+    - e
+    - e
+    - e
+    - e
+    - e
 
 
