@@ -545,7 +545,7 @@ why should we hire you? [[link](https://nationalcareers.service.gov.uk/careers-a
       I expect to work in a dynamic and supportive environment that values continuous learning, offers opportunities for growth, and aligns with my passion for technology.  
     - When will I hear back from you? Can you tell me more about the team I'll be working with? What are the biggest challenges I would face in this position? 
     - Not to ask! Questions to avoid during an interview: What would I do in this role? What benefits are there with this position? What is the salary for this position?
-    - Avoid distractions
+    - Avoid distractions, [[link](https://www.youtube.com/watch?v=NuHEY7CjjTI)]
     - e
     - e
     - e
