@@ -509,6 +509,22 @@ Being part of a team where the team matters. Working in a diverse international 
     - Why we have to hire you?
       My educational background and professional experience align closely with the requirements of this role.
       I want to work for this company because I believe I can make a positive contribution to its success. I have the skills and experience necessary to help the company reach its goals, and I am passionate about the company’s mission and values. Additionally, I am excited by the potential for growth and development opportunities that this role offers.  
+    - How do you handle conflicts within your team?
+    - How do you handle stress and avoid burnout in your work?
+    - e
+    - e
+    - What is your weakness?
+      Fear of public speaking, I struggle with public speaking. Nervousness about public speaking; Discomfort taking big risks;  
+      [[link](https://www.deel.com/blog/weaknesses-for-job-interview)]  
+      Being too detail-oriented. Procrastination. Harsh self-criticism. Difficulty multitasking. 
+    - What is your favorite part about working here? How do you typically measure success in this role?  What traits have people that have been successful in the position demonstrated? What are the opportunities for professional development at the company?  
+    - what do you know about our company?
+why do you think you're a good fit for our company?
+why do you want to work for us?  
+    - what are your main strengths?
+why should we hire you? [[link](https://nationalcareers.service.gov.uk/careers-advice/top-10-interview-questions)]
+    - Why you left your last job?
+    - Can you tell us about a personal achievement at work?
     - e
     - e
     - e
