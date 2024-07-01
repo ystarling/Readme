@@ -527,7 +527,7 @@ why should we hire you? [[link](https://nationalcareers.service.gov.uk/careers-a
     - Who Will I Meet With? Is There Anything You Want Me to Prepare? What’s the Format? What’s Your Dress Code? [[link](https://www.linkedin.com/pulse/what-questions-should-i-ask-job-interview-jay-cprw-cpcc-mba/)]
     - What is your timeline for filling the position?  Never ever leave an interview without asking for their timeline. Knowing an employer’s timeline gives you an idea of what to expect next and opens the door for you to send communication to follow up (that is, if you truly want to work there)
     - What would a typical day look like for the role being offered? Why is the position vacant? Can you tell me about the team and manager I’ll be working with?  What are the next steps?  
-    - e
+    - What does a typical day look like?  ```Can you tell me more about the team I would be working in?  ```  
     - e
 
 
