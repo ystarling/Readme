@@ -166,7 +166,8 @@
         return Arrays.stream(values()).filter(month -> month.getValue().equalsIgnoreCase(value)).findFirst()
                        .orElseThrow(IllegalArgumentException::new);
      }
-     ``` 
+     ```
+   - Generic, only compile time.
    - Java 11 vs 17, var keyword without specifing type, Text blocks """text""", Records, S.toList() instead of S.collect(Collectors.toList())
    - GoF patterns
      - Remember most usage patterns: Observer, Decorator, Iterator, Builder, Strategy(lambda!)
