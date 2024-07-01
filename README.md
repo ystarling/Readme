@@ -542,8 +542,8 @@ why should we hire you? [[link](https://nationalcareers.service.gov.uk/careers-a
     - ```What does a typical day look like?  Can you tell me more about the team I would be working in?  ```  
     - What do you expect from a job with us?
       I expect to work in a dynamic and supportive environment that values continuous learning, offers opportunities for growth, and aligns with my passion for technology.  
-    - r
-    - e
+    - When will I hear back from you? Can you tell me more about the team I'll be working with? What are the biggest challenges I would face in this position? 
+    - Not to ask! Questions to avoid during an interview: What would I do in this role? What benefits are there with this position? What is the salary for this position?
     - e
     - e
     - e
