@@ -505,7 +505,6 @@ https://www.gettex.de/en/etfs/
 I’m looking for the opportunity to expand my learning, put to use my skills and experience, work in a team that is inclusive and an environment that helps propel my growth beyond the job descriptions.
 My expectations for the company would be to provide me healthy work environment, job security, opportunities to grow personally and professionally. I want to work with like minded people who share the same values as me.
 Being part of a team where the team matters. Working in a diverse international team, where everyone is eager to learn and share with each other and appreciating the different backgrounds and experiences.
-
     - Why we have to hire you?
       My educational background and professional experience align closely with the requirements of this role.
       I want to work for this company because I believe I can make a positive contribution to its success. I have the skills and experience necessary to help the company reach its goals, and I am passionate about the company’s mission and values. Additionally, I am excited by the potential for growth and development opportunities that this role offers.  
@@ -513,7 +512,7 @@ Being part of a team where the team matters. Working in a diverse international 
     - How do you handle stress and avoid burnout in your work?
     - e
     - e
-    - What is your weakness?
+    - What is your weakness? Here’s how to identify and discuss a weakness that works in your favor.  
       Fear of public speaking, I struggle with public speaking. Nervousness about public speaking; Discomfort taking big risks;  
       [[link](https://www.deel.com/blog/weaknesses-for-job-interview)]  
       Being too detail-oriented. Procrastination. Harsh self-criticism. Difficulty multitasking. 
@@ -523,11 +522,11 @@ why do you think you're a good fit for our company?
 why do you want to work for us?  
     - what are your main strengths?
 why should we hire you? [[link](https://nationalcareers.service.gov.uk/careers-advice/top-10-interview-questions)]
-    - Why you left your last job?
+    - Why you left your last job? Key takeaways
     - Can you tell us about a personal achievement at work?
-    - e
-    - e
-    - e
+    - Who Will I Meet With? Is There Anything You Want Me to Prepare? What’s the Format? What’s Your Dress Code? [[link](https://www.linkedin.com/pulse/what-questions-should-i-ask-job-interview-jay-cprw-cpcc-mba/)]
+    - What is your timeline for filling the position?  Never ever leave an interview without asking for their timeline. Knowing an employer’s timeline gives you an idea of what to expect next and opens the door for you to send communication to follow up (that is, if you truly want to work there)
+    - What would a typical day look like for the role being offered? Why is the position vacant? Can you tell me about the team and manager I’ll be working with?  What are the next steps?  
     - e
     - e
 
