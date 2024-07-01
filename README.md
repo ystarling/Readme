@@ -540,6 +540,14 @@ why should we hire you? [[link](https://nationalcareers.service.gov.uk/careers-a
     - What is your timeline for filling the position?  Never ever leave an interview without asking for their timeline. Knowing an employer’s timeline gives you an idea of what to expect next and opens the door for you to send communication to follow up (that is, if you truly want to work there)
     - What would a typical day look like for the role being offered? Why is the position vacant? Can you tell me about the team and manager I’ll be working with?  What are the next steps?  
     - ```What does a typical day look like?  Can you tell me more about the team I would be working in?  ```  
+    - What do you expect from a job with us?
+      I expect to work in a dynamic and supportive environment that values continuous learning, offers opportunities for growth, and aligns with my passion for technology.  
+    - r
+    - e
+    - e
+    - e
+    - e
+    - e
     - e
 
 
