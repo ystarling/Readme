@@ -480,6 +480,7 @@ https://www.gettex.de/en/etfs/
     - git add .
     - git remote add origin https://github.com/ystarling/cdr-service.git
     - commit, push
+    - How to write commit message, [[link](https://github.com/joelparkerhenderson/git-commit-message)]
 18. Frontend
     - Angular [[link](https://www.youtube.com/watch?v=pkTAFaR5LRM)], [[git](https://github.com/cornflourblue/angular-master-details-crud-example/tree/master)]
 19. txt
