@@ -381,7 +381,7 @@ It is important to establish a data retention policy that defines how long data 
    - https://www.aquasec.com/cloud-native-academy/kubernetes-101/kubernetes-monitoring/
    - delete minikube https://gist.github.com/rahulkumar-aws/65e6fbe16cc71012cef997957a1530a3
    - [[Deployment vs StatefulSet](https://www.youtube.com/watch?v=pPQKAR1pA9U&ab_channel=TechWorldwithNana)], [[Helm](https://www.youtube.com/watch?v=-ykwb1d0DXU&ab_channel=TechWorldwithNana)], [[Pods and Containers](https://www.youtube.com/watch?v=5cNrTU6o3Fw&ab_channel=TechWorldwithNana)], [[Terraform](https://www.youtube.com/watch?v=l5k1ai_GBDE&ab_channel=TechWorldwithNana)], [[Kubernetes Services](https://www.youtube.com/watch?v=T4Z7visMM4E&ab_channel=TechWorldwithNana)], [[Ingress](https://www.youtube.com/watch?v=80Ew_fsV4rM&ab_channel=TechWorldwithNana)], [[Microservices](https://www.youtube.com/watch?v=rv4LlmLmVWk&ab_channel=TechWorldwithNana)], [[Kubernetes components](https://www.youtube.com/watch?v=Krpb44XR0bk&ab_channel=TechWorldwithNana)], [[K8s](https://www.youtube.com/watch?v=VnvRFRk_51k&ab_channel=TechWorldwithNana)], [[K8s Hands On](https://www.youtube.com/watch?v=r2zuL9MW6wc&ab_channel=TravisMedia)], [[Kubectl Basic Commands](https://www.youtube.com/watch?v=azuwXALfyRg&ab_channel=TechWorldwithNana)]
-   - K8s; deploying, managing, automating, scaling containerise applications
+   - K8s; deploying, managing, automating, scaling containerise applications [[link vodeo](https://www.youtube.com/watch?v=r2zuL9MW6wc)]
    - etc
 9. Clean Code and Uncle Bob, Craftmanship, Refactoring
    - code refactoring how to? Better organization, Less code duplication, Easier maintenance, understandable, readable, structured, documented
