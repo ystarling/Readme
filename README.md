@@ -320,6 +320,8 @@ Authorization determines what resources a user can access.
    - Hibernate audited, @Audited - generate table with suffix table_aud
    - Transactional manager in Hibernate, other vendors, @EnableTransactionManagement, PlatformTransactionManager, JpaTransactionManager
    - @Modify, safety update or delete native queries
+   - https://medium.com/@aqeelabbas3972/hibernate-jpa-commonly-used-annotations-3771dc0e0e
+   - 
 5. REST
    - Rest vs Soap
    - Idempotent, [[link](https://restfulapi.net/idempotent-rest-apis/)], POST and PATCH are generally non-idempotent.
