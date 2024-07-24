@@ -356,6 +356,8 @@ Exactly what the API gateway does will vary from one implementation to another. 
    - Distributed antipatterns, [[link](https://blog.bitsrc.io/10-microservice-anti-patterns-278bcb7f385d)]
    - Saga, Choreography: [[link](https://www.youtube.com/watch?v=6O5iJ7PKUhs)]
    - In Onion architecture everything split by layers, core is your model, then repository, service layer . All 3 layers are abstraction or interfaces. Then other layers infrastructure, controllers is concrete realisations. Dependency inversion principle and dependency injection widely use.
+   - https://www.marcobehler.com/guides/java-microservices-a-practical-guide
+   - etc
 7. Docker
    - What is docker container itself? [[link](https://www.docker.com/resources/what-container/#:~:text=A%20Docker%20container%20image%20is,tools%2C%20system%20libraries%20and%20settings.)]
       - A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
