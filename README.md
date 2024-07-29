@@ -362,7 +362,7 @@ Exactly what the API gateway does will vary from one implementation to another. 
    - etc
 7. Docker
    - What is docker container itself? [[link](https://www.docker.com/resources/what-container/#:~:text=A%20Docker%20container%20image%20is,tools%2C%20system%20libraries%20and%20settings.)]
-      - A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
+      - A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings. Self isolated environment,.
    - Docker networking?, Docker swarm, compose? how to expose or open service connection outside?
       - https://docs.docker.com/get-started/08_using_compose/
       - https://youtu.be/tNk8uXLOxA8?t=499
