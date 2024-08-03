@@ -325,6 +325,8 @@ Authorization determines what resources a user can access.
 5. REST
    - Rest vs Soap
    - Idempotent, [[link](https://restfulapi.net/idempotent-rest-apis/)], POST and PATCH are generally non-idempotent.
+   - When to use HTTP head?
+The HTTP HEAD method requests the headers that would be returned if the HEAD request's URL was instead requested with the HTTP GET method. For example, if a URL might produce a large download, a HEAD request could read its Content-Length header to check the filesize without actually downloading the file.
    - Rest header, body, query parameters, content-type? Map<String, String>
    - backward compatibility, versioning, https://www.linkedin.com/advice/0/how-do-you-design-restful-api-supports#:~:text=Backward%20compatibility%20is%20the%20ability,new%20version%20of%20the%20API.
    - client server architecture based on requests - responses, various response format, flexible, stateless (means all info that needs already in request).
