@@ -495,9 +495,9 @@ https://www.gettex.de/en/etfs/
     - How to write commit message, [[link](https://github.com/joelparkerhenderson/git-commit-message)]
 18. Frontend
     - Angular [[link](https://www.youtube.com/watch?v=pkTAFaR5LRM)], [[git](https://github.com/cornflourblue/angular-master-details-crud-example/tree/master)]
-19. txt
+19. Security
     - How to German Freelance [[link](https://www.iamexpat.de/career/entrepreneur-germany/going-freelance)]
-    - 
+    - https://portswigger.net/web-security/csrf
 20. Company culture and fit
     - [[unsuccessful man](https://www.newtraderu.com/2024/05/03/12-habits-of-unsuccessful-men-who-never-move-forward-in-life/)]
     - [[germanycoach](https://www.germanycareercoach.com/blog/six-strategies-for-improving-your-job-search-germany?ss_source=sscampaigns&ss_campaign_id=63b42be196e9211651d3eb09&ss_email_id=6633b812c7eb5d42b67988cd&ss_campaign_name=How+to+get+started+with+your+Germany+job+search+%5BPART+2%2F4%5D&ss_campaign_sent_date=2024-05-04T15%3A58%3A00Z)]
