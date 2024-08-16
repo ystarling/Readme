@@ -459,6 +459,7 @@ Common terminology between the domain experts and the development team includes 
     - Scrum pocker
     - Squads, [[link](https://engineering.atspotify.com/2014/03/spotify-engineering-culture-part-1/)], [[link](https://vimeo.com/85490944)]
     - Spotify
+    - 
 14. Code challenges
     - https://www.linkedin.com/pulse/coding-challenges-struggle-real-solutions-here-owoseni-boluwatife-ss0jf/
     - https://leanylabs.com/blog/senior-vs-middle-vs-junior-developers/
@@ -501,6 +502,9 @@ https://www.gettex.de/en/etfs/
 20. Company culture and fit
     - [[unsuccessful man](https://www.newtraderu.com/2024/05/03/12-habits-of-unsuccessful-men-who-never-move-forward-in-life/)]
     - [[germanycoach](https://www.germanycareercoach.com/blog/six-strategies-for-improving-your-job-search-germany?ss_source=sscampaigns&ss_campaign_id=63b42be196e9211651d3eb09&ss_email_id=6633b812c7eb5d42b67988cd&ss_campaign_name=How+to+get+started+with+your+Germany+job+search+%5BPART+2%2F4%5D&ss_campaign_sent_date=2024-05-04T15%3A58%3A00Z)]
+    - https://roadmap.alexhyett.com/backend-developer-roadmap/
+    - etc
+    - 
 21. Questions & Answers
     - Can you tell me more about the team? Can you tell me more about the team I would be working in?
     - What would a typical day for me in this role look like?
