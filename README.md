@@ -15,7 +15,7 @@
      - Funtional interfaces java, purpose, examples? single abstract method, to avoid boilerplate using anonymous classes, Consumer, Predicate, Function, Supplier. Runnable, Callable, Comparable,  
      - Immutable class? class final, private final members, initialise everything in constructor, deep copy, no setters! [[link](https://systemweakness.com/immutable-objects-in-java-using-builder-pattern-with-functional-interface-fa8885771cda)], [[records, withers, builders](https://www.sonarsource.com/blog/builders-withers-and-records-java-s-path-to-immutability/)], by reflection
      - JVM inside, class loaders, rt.jar, bootstrap. [[link](https://medium.com/geekculture/java-backend-developer-interview-questions-pt-1-10-1c74c76442bd)],
-       [[gc](https://stackify.com/what-is-java-garbage-collection/)] , [[jvm](https://interviewnoodle.com/jvm-architecture-71fd37e7826e)] , [[jvm](https://www.linkedin.com/pulse/jvm-architecture-detail-suresh-g)]
+       [[gc](https://stackify.com/what-is-java-garbage-collection/)] , [[jvm](https://interviewnoodle.com/jvm-architecture-71fd37e7826e)] , [[jvm](https://www.linkedin.com/pulse/jvm-architecture-detail-suresh-g)] , [[jvm](https://medium.com/java-for-beginners/understanding-java-virtual-machine-jvm-architecture-e68d1c611026)]
      - JVM parameters  
        ```
           -XX:MaxPermSize =java.lang.OutOfMemoryError
