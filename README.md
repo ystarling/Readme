@@ -42,7 +42,9 @@
      - class Objects.
      - weak, strong, soft, phantom references: [[link](https://www.baeldung.com/java-reference-types)]  
        strong reference -sitting all time.  
-       weak reference -sitting on demand gc, once need memory.  
+       weak reference -sitting on demand gc, once need memory.
+     - https://www.linkedin.com/pulse/jvm-architecture-detail-suresh-g
+     - 
    - Streams
      - Sequence of operations on objects, 
          input->intermediate operations ..filter, mapping, reducing, sorting, etc->terminal operation->output
