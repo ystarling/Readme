@@ -217,6 +217,7 @@ Difficult to Test. Tight Coupling.
 Authorization determines what resources a user can access.
    - RestTemplate [[link](https://hellokoding.com/spring-resttemplate-timeout/)]
    - https://medium.com/@Lakshitha_Fernando/spring-boot-unit-testing-for-repositories-controllers-and-services-using-junit-5-and-mockito-def3ff5891be
+   - https://github.com/elkamphy/kloudly-tutorials/blob/master/spring-boot/spring-boot-rest/src/main/java/com/kloudly/springbootrest/controllers/ProductController.java
    - etc
 4. DATABASE
    - NoSql vs RDBMs, NoSQL(high velocity-speed, high handle volume data). [[link](https://www.geeksforgeeks.org/difference-between-relational-database-and-nosql/)]
