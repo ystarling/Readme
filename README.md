@@ -86,6 +86,7 @@
      - Thread safe, DeadLock?
      - volatile, use fast main memory, shared and visible for threads
      - Lock interface, locking, synchronize block
+     - How to use Semaphor instead of ReadWriteLock, ReentrantLock
      - Executors
        The java.util.concurrent.Executors provide factory methods that are being used to create ThreadPools of worker threads. Threads get free, they pick up the next task from this Queue.  
        ```
@@ -314,6 +315,7 @@ Authorization determines what resources a user can access.
    - Optimistic Lock @Version
    - How to One to One mapping?
    - Jpa entity states: New, Managed, Detached(when Session closed), Removed.
+   - LazyLoadingException occurs during no session.
    - Cache L1, L2, query cache in JPA
    - N + 1 problem?
    - JPA relationship 1-n, n-1, @Entity, other annotation links tables? department-employee. [[link](https://medium.com/thefreshwrites/manytoone-onetomany-mapping-in-jpa-32581d3c0f8a)], [[link](https://www.baeldung.com/jpa-one-to-one)], [[link](https://www.tutorialspoint.com/jpa/jpa_entity_relationships.htm)]
