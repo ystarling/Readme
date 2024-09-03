@@ -568,7 +568,7 @@ why should we hire you? [[link](https://nationalcareers.service.gov.uk/careers-a
     - When will I hear back from you? Can you tell me more about the team I'll be working with? What are the biggest challenges I would face in this position? 
     - Not to ask! Questions to avoid during an interview: What would I do in this role? What benefits are there with this position? What is the salary for this position?
     - Avoid distractions, [[link](https://www.youtube.com/watch?v=NuHEY7CjjTI)]
-    - What is your biggest challenge you had? Production was down. Production on black friday unstable. Production in BKMS disable features. 
+    - What is your biggest challenge you had? Production was down. Production on black friday unstable. Production in BKMS disable features. rollback to stable version.
     - e
     - e
     - e
