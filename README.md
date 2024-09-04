@@ -307,7 +307,7 @@ Authorization determines what resources a user can access.
       - https://habr.com/ru/articles/664028/
    - Isolation levels from lowest to highest are: Read Uncommitted, Read Committed, Repeatable Read, and Serializable. [[link](https://jetherrodrigues.dev.br/transaction-management-in-the-spring-framework-996d700f1f27)], [[docker](https://youtu.be/tNk8uXLOxA8?t=499)], [[docker](https://youtu.be/4EajrPgJAk0?t=252)]
      - Read Committed = Only see data written by committed transactional.
-   - Postgres default isolation level. Read-committed. Explain what this isolation means?
+   - Postgres default isolation level. Read-committed. Explain what this isolation means? [[isolation-levels](https://medium.com/nerd-for-tech/understanding-database-isolation-levels-c4ebcd55c6b9)]
    - NoSQL learn https://www.youtube.com/watch?v=c2M-rlkkT5o&ab_channel=BroCode
 4. ORM
    - JPA vs Hibernate, more then one difference?
