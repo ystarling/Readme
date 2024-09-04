@@ -575,8 +575,7 @@ why should we hire you? [[link](https://nationalcareers.service.gov.uk/careers-a
     - 
 
 22. Kotlin
-    - https://www.youtube.com/watch?v=i-kyPp1qFBA
-    - https://www.youtube.com/watch?v=renRJnDtfxc
+    - video links [[link1](https://www.youtube.com/watch?v=i-kyPp1qFBA)], [[link2](https://www.youtube.com/watch?v=iYrgWO2oibY)], [[link3](https://www.youtube.com/watch?v=renRJnDtfxc)]
     - e
     - e
 
