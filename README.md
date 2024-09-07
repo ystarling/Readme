@@ -336,7 +336,7 @@ The HTTP HEAD method requests the headers that would be returned if the HEAD req
    - client server architecture based on requests - responses, various response format, flexible, stateless (means all info that needs already in request).
    - Async Rest example [[link](https://sanketdaru.com/blog/polling-model-async-rest-spring-boot/)], [[link](https://github.com/sanketdaru/async-jobs-over-restful-api)], [[link2](https://medium.com/@bubu.tripathy/a-beginners-guide-to-async-processing-in-a-spring-boot-application-a4c785a992f2)], [[responsiveness](https://jackynote.medium.com/optimizing-spring-boot-asynchronous-processing-a-comprehensive-guide-f9437ce3d14d)] [[link](https://www.javacodegeeks.com/2016/06/java-8-completablefuture-vs-parallel-stream.html)]
    - endpoints names example [[link](https://docs.github.com/en/rest/authentication/endpoints-available-for-fine-grained-personal-access-tokens?apiVersion=2022-11-28)]
-   - [[characteristics](https://www.linkedin.com/pulse/characteristics-rest-based-apis-baha-abu-shaqra-phd-dti-uottawa--xyycf)],  [[blog](https://www.knowledgehut.com/blog/programming/rest-api)], 
+   - [[characteristics](https://www.linkedin.com/pulse/characteristics-rest-based-apis-baha-abu-shaqra-phd-dti-uottawa--xyycf)],  [[blog](https://www.knowledgehut.com/blog/programming/rest-api)], [[rest-api-design](https://www.getambassador.io/blog/7-rest-api-design-best-practices)]
 6. Microservices
    - Event driven communication vs REST, when to use?
       - Event-garantie that message deliveried to consumer, no downtime, no need to wait for message.
