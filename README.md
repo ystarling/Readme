@@ -380,6 +380,8 @@ Exactly what the API gateway does will vary from one implementation to another. 
    - https://docs.docker.com/engine/swarm/raft/
    - https://www.docker.com/blog/9-tips-for-containerizing-your-spring-boot-code/
    - [[Docker Networking with spring microservices] (https://github.com/SayedBaladoh/Deploying-and-Running-Multiple-Spring-Boot-Microservices-with-MySql-using-Docker-Compose/tree/master)]
+   - Docker swarm, [[Raft consensus](https://thesecretlivesofdata.com/raft/)]
+   - 
 8. K8s
    - K8s question: if your service in K8s is down what is your step to do? service describe, readiness probe.
     Read Troubleshooting applications kubernetes.io , startup, liveness, readness probe, describe pod, [[link](https://stackoverflow.com/questions/65858309/why-do-i-need-3-different-kind-of-probes-in-kubernetes-startupprobe-readinessp)]
