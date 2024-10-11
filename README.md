@@ -316,7 +316,7 @@ Authorization determines what resources a user can access.
    - How to One to One mapping?
    - Jpa entity states: New, Managed, Detached(when Session closed), Removed.
    - LazyLoadingException occurs during no session.
-   - Cache L1, L2, query cache in JPA
+   - Cache L1(session level), L2(application), query cache in JPA
    - N + 1 problem?
    - JPA relationship 1-n, n-1, @Entity, other annotation links tables? department-employee. [[link](https://medium.com/thefreshwrites/manytoone-onetomany-mapping-in-jpa-32581d3c0f8a)], [[link](https://www.baeldung.com/jpa-one-to-one)], [[link](https://www.tutorialspoint.com/jpa/jpa_entity_relationships.htm)]
    - Opimistic lock? jpa, hibernate, entity stages, detached? Transient(Created), Managed, Detached, Removed
@@ -507,6 +507,7 @@ https://www.gettex.de/en/etfs/
 19. Security
     - How to German Freelance [[link](https://www.iamexpat.de/career/entrepreneur-germany/going-freelance)]
     - https://portswigger.net/web-security/csrf
+    - Cross forgery, Xss? How to prevent?
 20. Company culture and fit
     - [[unsuccessful man](https://www.newtraderu.com/2024/05/03/12-habits-of-unsuccessful-men-who-never-move-forward-in-life/)]
     - [[germanycoach](https://www.germanycareercoach.com/blog/six-strategies-for-improving-your-job-search-germany?ss_source=sscampaigns&ss_campaign_id=63b42be196e9211651d3eb09&ss_email_id=6633b812c7eb5d42b67988cd&ss_campaign_name=How+to+get+started+with+your+Germany+job+search+%5BPART+2%2F4%5D&ss_campaign_sent_date=2024-05-04T15%3A58%3A00Z)]
