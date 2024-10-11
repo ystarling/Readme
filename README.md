@@ -317,6 +317,9 @@ Authorization determines what resources a user can access.
    - Jpa entity states: New, Managed, Detached(when Session closed), Removed.
    - LazyLoadingException occurs during no session.
    - Cache L1(session level), L2(application), query cache in JPA
+   - The first-level cache is associated with a Session and is used to cache data within a single transaction or request.
+   - Second-level cache, on the other hand, is shared across Sessions and can cache data across multiple transactions and requests.
+Hibernate provides several cache providers, including EHCache, Infinispan, Hazelcast, and Redis.
    - N + 1 problem?
    - JPA relationship 1-n, n-1, @Entity, other annotation links tables? department-employee. [[link](https://medium.com/thefreshwrites/manytoone-onetomany-mapping-in-jpa-32581d3c0f8a)], [[link](https://www.baeldung.com/jpa-one-to-one)], [[link](https://www.tutorialspoint.com/jpa/jpa_entity_relationships.htm)]
    - Opimistic lock? jpa, hibernate, entity stages, detached? Transient(Created), Managed, Detached, Removed
