@@ -313,6 +313,7 @@ Authorization determines what resources a user can access.
    - JPA vs Hibernate, more then one difference?
    - Lazy loading JPA/Hibernate, Cascading
    - Optimistic Lock @Version
+   - https://medium.com/@bubu.tripathy/managing-concurrent-database-updates-eaf2fe161c48
    - How to One to One mapping?
    - Jpa entity states: New, Managed, Detached(when Session closed), Removed.
    - LazyLoadingException occurs during no session.
