@@ -342,13 +342,16 @@ The HTTP HEAD method requests the headers that would be returned if the HEAD req
    - endpoints names example [[link](https://docs.github.com/en/rest/authentication/endpoints-available-for-fine-grained-personal-access-tokens?apiVersion=2022-11-28)]
    - [[characteristics](https://www.linkedin.com/pulse/characteristics-rest-based-apis-baha-abu-shaqra-phd-dti-uottawa--xyycf)],  [[blog](https://www.knowledgehut.com/blog/programming/rest-api)], [[rest-api-design](https://www.getambassador.io/blog/7-rest-api-design-best-practices)]
    - Good REST API's:
+```
      1. plural nouns, /users, /customers
      2. GET-get, POST-create, PUT-update, PATCH-partial update, (idempotency)
      3. HTTP status code, error handling, responses (never return collection or map directly! always object!)
         [], instead { size=, data: [] }
      4. Versioning, api/v1/users
-     5. Paging, Sorting, Filtering
-     6. 
+     5. Paging, Sorting, Filtering (ResponseEntity<Page<User>>)
+     6. ResponseEntity<DTO> create(@RequestBody DTO) return object when create resource
+```
+
 6. Microservices
    - Event driven communication vs REST, when to use?
       - Event-garantie that message deliveried to consumer, no downtime, no need to wait for message.
