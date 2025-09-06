@@ -350,6 +350,8 @@ The HTTP HEAD method requests the headers that would be returned if the HEAD req
      4. Versioning, api/v1/users
      5. Paging, Sorting, Filtering (ResponseEntity<Page<User>>)
      6. ResponseEntity<DTO> create(@RequestBody DTO) return object when create resource
+     7. Documentation, Swagger, Openapi, Schemas
+     8. Validation
 ```
 
 6. Microservices
