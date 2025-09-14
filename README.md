@@ -318,7 +318,7 @@ Authorization determines what resources a user can access.
    - https://medium.com/@bubu.tripathy/managing-concurrent-database-updates-eaf2fe161c48
    - How to One to One mapping?
    - Jpa entity states: New, Managed, Detached(when Session closed), Removed.
-   - LazyLoadingException occurs during no session.
+   - LazyLoadingException occurs during no session. [[link](https://techbypranav.medium.com/troubleshooting-lazy-loading-in-spring-data-jpa-whats-really-going-on-9b8c0b77dece)]
    - Cache L1(session level), L2(application), query cache in JPA
    - The first-level cache is associated with a Session and is used to cache data within a single transaction or request.
    - Second-level cache, on the other hand, is shared across Sessions and can cache data across multiple transactions and requests.
