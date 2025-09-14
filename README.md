@@ -103,7 +103,7 @@
          class Task implements Callable<String>
          Future<String> result = executorService.submit(callableTask);
        ```
-     - Race condition. Occurs in programming when two or more execution threads modify a shared resource.
+     - Race condition. Occurs in programming when two or more execution threads modify a shared resource. https://medium.com/javarevisited/concurrency-in-java-a-practical-guide-fd47f86284bf, https://studyeasy.org/course-articles/java-en-en/s12l12-wait-and-notify-in-java-multithreading/
      - https://rjlfinn.medium.com/asynchronous-programming-in-java-d6410d53df4d
      - ThreadLocal, ConcurrentHashMap, BlockingQueue, Collections.synchronizedCollection(new ArrayList<>()); Collections.synchronizedList(), atomic wrappers AtomicInteger.  
        Atomic classes allow us to perform atomic operations, which are thread-safe, without using synchronization.  
