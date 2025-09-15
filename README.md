@@ -310,7 +310,7 @@ Authorization determines what resources a user can access.
    - Postgres default isolation level. Read-committed. Explain what this isolation means? [[isolation-levels](https://medium.com/nerd-for-tech/understanding-database-isolation-levels-c4ebcd55c6b9)]
    - NoSQL learn https://www.youtube.com/watch?v=c2M-rlkkT5o&ab_channel=BroCode
    - ElasticSearch:
-     [[link](https://www.elastic.co/training/elastic-certified-engineer-exam)]
+     [[link](https://www.elastic.co/training/elastic-certified-engineer-exam)], [[link](https://chatgpt.com/s/t_68c7f6ab28f48191bca7bc339d9c3d43)]
 4. ORM
    - JPA vs Hibernate, more then one difference?
    - Lazy loading JPA/Hibernate, Cascading
