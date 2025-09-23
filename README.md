@@ -381,6 +381,7 @@ Exactly what the API gateway does will vary from one implementation to another. 
    - Load balancer - distribute the workload between different servers or applications, network traffic across a group of backend servers. Load balancers are used to distribute capacity during peak traffic times, and to increase reliability of applications.
    - Distributed antipatterns, [[link](https://blog.bitsrc.io/10-microservice-anti-patterns-278bcb7f385d)]
    - Saga, Choreography: [[link](https://www.youtube.com/watch?v=6O5iJ7PKUhs)]
+   - 2PC, two phase commit
    - In Onion architecture everything split by layers, core is your model, then repository, service layer . All 3 layers are abstraction or interfaces. Then other layers infrastructure, controllers is concrete realisations. Dependency inversion principle and dependency injection widely use.
    - https://www.marcobehler.com/guides/java-microservices-a-practical-guide
    - https://www.linkedin.com/pulse/microservices-world-insurance-monoliths-rais-ahmed
