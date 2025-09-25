@@ -315,6 +315,7 @@ Authorization determines what resources a user can access.
    - JPA vs Hibernate, more then one difference?
    - Lazy loading JPA/Hibernate, Cascading
    - Optimistic Lock @Version
+   - Pessimistic & Optimistic locking [[linkedin](https://www.linkedin.com/pulse/optimistic-pessimistic-locking-spring-boot-hibernate-stefanova-03nwf/)], [[baeldung](https://www.baeldung.com/jpa-optimistic-locking)], [[medium](https://medium.com/jpa-java-persistence-api-guide/optimistic-vs-pessimistic-locking-in-spring-data-69ae32402fe3)], [[medium](https://medium.com/@abhirup.acharya009/managing-concurrent-access-optimistic-locking-vs-pessimistic-locking-0f6a64294db7)], [[medium](https://medium.com/@duhov/optimistic-vs-pessimistic-locking-in-databases-c32a52aeadfe)]
    - https://medium.com/@bubu.tripathy/managing-concurrent-database-updates-eaf2fe161c48
    - How to One to One mapping?
    - Jpa entity states: New, Managed, Detached(when Session closed), Removed.
