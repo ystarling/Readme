@@ -512,6 +512,7 @@ Auction schedule
 https://www.xetra.com/xetra-en/trading/trading-models/auctionschedule
 https://www.gettex.de/en/etfs/
     - Travel, [[ota](https://zoftify.com/blog/how-an-online-travel-agency-ota-back-office-software-works)], [[ota](https://xml.coverpages.org/OTA-2001B-200202.pdf)]
+    - Rate limit , [[link](https://www.innoq.com/en/blog/2024/02/rate-limiting-with-spring-boot/)], [[link](https://medium.com/@anil.goyal0057/fixed-window-rate-limiting-implementation-in-java-dc4abc07090e)], [[link](https://restfulapi.net/rest-api-rate-limit-guidelines/)]
     - etc
 
 16. Maven
