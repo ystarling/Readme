@@ -599,7 +599,7 @@ why should we hire you? [[link](https://nationalcareers.service.gov.uk/careers-a
     - Not to ask! Questions to avoid during an interview: What would I do in this role? What benefits are there with this position? What is the salary for this position?
     - Avoid distractions, [[link](https://www.youtube.com/watch?v=NuHEY7CjjTI)]
     - What is your biggest challenge you had? Production was down. Production on black friday unstable. Production, disable features. rollback to stable version.
-    - e
+    - [[Interview praparation](https://docs.google.com/document/d/1c6juttld1Q1C_8Ixf-J1EihwgChD6tMWEKKM-5EC8AU/edit?tab=t.0#heading=h.djh52kn73tyk)]
     - e
     - e
     - 
