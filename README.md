@@ -354,7 +354,12 @@ The HTTP HEAD method requests the headers that would be returned if the HEAD req
      5. Paging, Sorting, Filtering (ResponseEntity<Page<User>>)
      6. ResponseEntity<DTO> create(@RequestBody DTO) return object when create resource
      7. Documentation, Swagger, Openapi, Schemas
-     8. Validation
+     8. Validation, forgot to use..
+     9. Database migration scripts!
+     10. Database indexes, @Transaction when to use when not, update not?
+     11. Wildcards * imports, unused improrts!
+     12. must have Tests: junit, integration, what else?
+     13. Logic should not be in Controller! even mapping!?
 ```
 
 6. Microservices
