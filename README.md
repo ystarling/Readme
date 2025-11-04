@@ -360,6 +360,10 @@ The HTTP HEAD method requests the headers that would be returned if the HEAD req
      11. Wildcards * imports, unused improrts!
      12. must have Tests: junit, integration, what else?
      13. Logic should not be in Controller! even mapping!?
+     14. Keep Entities inside the domain, never expose them directly in APIs.
+         Do not map in controllers — delegate to service or dedicated mapper.
+         Use MapStruct for large projects → generates efficient mapping code automatically.
+     15. 
 ```
 
 6. Microservices
