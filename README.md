@@ -171,6 +171,7 @@
      ```
    - Generic, only compile time.
    - Java 11 vs 17, var keyword without specifing type, Text blocks """text""", Records, S.toList() instead of S.collect(Collectors.toList())
+     [[java25](https://www.baeldung.com/java-25-features)]
    - GoF patterns
      - Remember most usage patterns: Observer, Decorator, Iterator, Builder, Strategy(lambda!)
      - BandOf4 patterns? what you use? Observer, Proxy, Iterator vs Iterable? Adapter, Decorator, Facade.
