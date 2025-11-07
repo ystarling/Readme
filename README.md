@@ -340,7 +340,9 @@ Hibernate provides several cache providers, including EHCache, Infinispan, Hazel
    - When to use HTTP head?
 The HTTP HEAD method requests the headers that would be returned if the HEAD request's URL was instead requested with the HTTP GET method. For example, if a URL might produce a large download, a HEAD request could read its Content-Length header to check the filesize without actually downloading the file.
    - Rest header, body, query parameters, content-type? Map<String, String>
-   - backward compatibility, versioning, https://www.linkedin.com/advice/0/how-do-you-design-restful-api-supports#:~:text=Backward%20compatibility%20is%20the%20ability,new%20version%20of%20the%20API.
+   - backward compatibility, versioning, https://www.linkedin.com/advice/0/how-do-you-design-restful-api-supports#:~:text=Backward%20compatibility%20is%20the%20ability,new%20version%20of%20the%20API.  
+     REST API Versioning and Backward Compatibility  
+https://harish-bhattbhatt.medium.com/maintain-backward-compatibility-in-apis-7b7c2b8197c5
    - client server architecture based on requests - responses, various response format, flexible, stateless (means all info that needs already in request).
    - Async Rest example [[link](https://sanketdaru.com/blog/polling-model-async-rest-spring-boot/)], [[link](https://github.com/sanketdaru/async-jobs-over-restful-api)], [[link2](https://medium.com/@bubu.tripathy/a-beginners-guide-to-async-processing-in-a-spring-boot-application-a4c785a992f2)], [[responsiveness](https://jackynote.medium.com/optimizing-spring-boot-asynchronous-processing-a-comprehensive-guide-f9437ce3d14d)] [[link](https://www.javacodegeeks.com/2016/06/java-8-completablefuture-vs-parallel-stream.html)]
    - endpoints names example [[link](https://docs.github.com/en/rest/authentication/endpoints-available-for-fine-grained-personal-access-tokens?apiVersion=2022-11-28)]
