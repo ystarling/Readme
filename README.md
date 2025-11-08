@@ -621,4 +621,10 @@ why should we hire you? [[link](https://nationalcareers.service.gov.uk/careers-a
     - e
     - e
 
-
+23. Code refactoring
+    - Question 1:
+      You have in a method too much If-Statements. What can you do, to make it more readable/extendable?
+    - Question 2:
+      You have a constructor with a big parameterlist what can you do to make it more readable?
+    - s
+    - 
