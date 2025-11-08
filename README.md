@@ -629,3 +629,8 @@ why should we hire you? [[link](https://nationalcareers.service.gov.uk/careers-a
       You have a constructor with a big parameterlist what can you do to make it more readable?
     - s
     - 
+24. Kafka
+   - To scale Kafka, use horizontal scaling by adding brokers to the cluster and adjust the number of partitions to match your consumer needs. Additionally, optimize performance by batching messages, enabling compression, and proactively monitoring the cluster for bottlenecks.  
+   - Kafka message batching is a process where a producer groups multiple messages together into a single request to the broker, improving throughput by reducing network and I/O overhead. It can be configured by a maximum batch size (e.g., in bytes) or a maximum wait time (e.g., in milliseconds), which determines when a batch is sent even if it isn't full. This process can also be combined with compression for further efficiency.
+   - 
+25. dd
