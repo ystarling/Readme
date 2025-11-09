@@ -639,4 +639,40 @@ why should we hire you? [[link](https://nationalcareers.service.gov.uk/careers-a
     - Kafka message batching is a process where a producer groups multiple messages together into a single request to the broker, improving throughput by reducing network and I/O overhead. It can be configured by a maximum batch size (e.g., in bytes) or a maximum wait time (e.g., in milliseconds), which determines when a batch is sent even if it isn't full. This process can also be combined with compression for further efficiency.
     - d
     - 
-25. dd
+25. Code challange
+    - recursive list
+    ```  /**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        
+        if(head == null) return null;
+        
+        ListNode prev = null;
+        ListNode curr = head;
+        
+        while(curr != null) {
+            ListNode next = curr.next;
+            
+            //swap?
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        
+        return prev;
+    }
+} ```  
+    - s
+    - s
+    - s
+    - s
+    - 
