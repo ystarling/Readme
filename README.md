@@ -464,6 +464,59 @@ Common terminology between the domain experts and the development team includes 
       - subject,
    - Refactoring, [[link](https://www.youtube.com/watch?v=T3iTI2uEwkc&ab_channel=PragmaticWays)], [[link](https://www.youtube.com/watch?v=4P9qkbajv4g&ab_channel=Globant)], [[github](https://github.com/Programming-with-Mati/fp-legacy-refactor-camp/tree/solution)]
    - Static and dynamic code analysis
+   - Types of Testing I Know (and Actively Use)
+      1. Unit Testing
+         Tests a single class or method in isolation
+         Uses JUnit 5, Mockito, AssertJ
+         Fast, deterministic, no external dependencies
+         Focus on business logic
+      2. Integration Testing
+         Tests Spring components working together
+         Uses Spring Boot Test, Testcontainers, MockMvc or full HTTP calls
+         Tests interaction with DB, Kafka, REST endpoints, etc.
+      3. API / End-to-End Tests
+         Validate REST APIs from the outside
+         Use RestAssured, Karate, or Postman/Newman
+         Covers the whole request → controller → service → DB flow
+      4. Contract Testing
+         Ensures microservices agree on API formats
+         Uses Pact or Spring Cloud Contract
+         Prevents breaking changes in distributed systems
+      5. Integration Testing with Messaging (Kafka)
+         Using Testcontainers Kafka
+         Testing:
+            producing messages
+            consuming messages
+            handling offsets & data consistency
+      6. Performance & Load Testing
+         Uses Gatling, JMeter, or k6
+         Checks:
+            throughput
+            latency
+            scalability
+            bottlenecks
+     7. Security Testing
+         Tests authentication, authorization, and vulnerabilities
+         Tools: OWASP ZAP, security scans
+            Ensures endpoints are protected
+      8. Smoke Testing / Sanity Checks
+         Quick tests after deployment
+         Ensures core functionality works
+      9. Regression Testing
+         Automated test suite to ensure new changes don’t break existing functionality
+      10. Functional Testing
+         Validates feature requirements from user perspective
+      11. Database Testing
+         Using:
+            Testcontainers (PostgreSQL, MySQL)
+            @DataJpaTest
+            Verifies:
+            entity mappings
+            cascade rules
+            transactions
+      12. UI Testing (if applicable)
+         Using Selenium, Cypress, or Playwright
+         For frontend flows
 10. System Design
     - Spotify, music streaming [[link](https://www.youtube.com/watch?v=_K-eupuDVEc&ab_channel=IGotAnOffer%3AEngineering)]
     - Amazon System Design Interview: Design Parking Garage, [[link](https://www.youtube.com/watch?v=NtMvNh0WFVM&ab_channel=Exponent)]
