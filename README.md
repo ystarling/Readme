@@ -306,9 +306,9 @@ Authorization determines what resources a user can access.
       - rolling update that doesn’t cause any downtime. [[link](https://thorben-janssen.com/update-database-schema-without-downtime/)]
       - The removal of the constraint itself is a backward-compatible operation.
       - https://habr.com/ru/articles/664028/
-   - Isolation levels from lowest to highest are: Read Uncommitted, Read Committed, Repeatable Read, and Serializable. [[link](https://jetherrodrigues.dev.br/transaction-management-in-the-spring-framework-996d700f1f27)], [[docker](https://youtu.be/tNk8uXLOxA8?t=499)], [[docker](https://youtu.be/4EajrPgJAk0?t=252)]
+   - Isolation levels from lowest to highest are: Read Uncommitted, Read Committed, Repeatable Read, and Serializable. [[link](https://jetherrodrigues.dev.br/transaction-management-in-the-spring-framework-996d700f1f27)], [[docker](https://youtu.be/tNk8uXLOxA8?t=499)], [[docker](https://youtu.be/4EajrPgJAk0?t=252)], [[repeatable-read](https://www.youtube.com/watch?v=gaXISK1KTYY)], [[linkedin](https://www.linkedin.com/pulse/understanding-database-phenomena-isolation-levels-ali-0zhpf/)]  
      - Read Committed = Only see data written by committed transactional.
-   - Postgres default isolation level. Read-committed. Explain what this isolation means? [[isolation-levels](https://medium.com/nerd-for-tech/understanding-database-isolation-levels-c4ebcd55c6b9)]
+   - Postgres default isolation level Read-committed. Explain what this isolation means? [[isolation-levels](https://medium.com/nerd-for-tech/understanding-database-isolation-levels-c4ebcd55c6b9)]
    - NoSQL learn https://www.youtube.com/watch?v=c2M-rlkkT5o&ab_channel=BroCode
    - ElasticSearch:
      [[link](https://www.elastic.co/training/elastic-certified-engineer-exam)], [[link](https://chatgpt.com/s/t_68c7f6ab28f48191bca7bc339d9c3d43)]
