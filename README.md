@@ -630,7 +630,7 @@ why should we hire you? [[link](https://nationalcareers.service.gov.uk/careers-a
       You have in a method too much If-Statements. What can you do, to make it more readable/extendable?
       [[link](https://blog.beyondthecloud.dev/blog/beyond-if-statements-ways-to-avoid-ifs)}]
     - Question 2:
-      You have a constructor with a big parameterlist what can you do to make it more readable?
+      You have a constructor with a big parameterlist what can you do to make it more readable? Builder
     - s
     - 
 24. Kafka
