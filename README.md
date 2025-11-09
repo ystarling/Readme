@@ -312,6 +312,9 @@ Authorization determines what resources a user can access.
    - NoSQL learn https://www.youtube.com/watch?v=c2M-rlkkT5o&ab_channel=BroCode
    - ElasticSearch:
      [[link](https://www.elastic.co/training/elastic-certified-engineer-exam)], [[link](https://chatgpt.com/s/t_68c7f6ab28f48191bca7bc339d9c3d43)]
+   - Postgres [[query plans](https://www.postgresql.org/docs/9.5/using-explain.html)]
+   - s
+   - s
 4. ORM
    - JPA vs Hibernate, more then one difference?
    - Lazy loading JPA/Hibernate, Cascading
