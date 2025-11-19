@@ -357,7 +357,7 @@ https://harish-bhattbhatt.medium.com/maintain-backward-compatibility-in-apis-7b7
      3. HTTP status code, error handling, responses (never return collection or map directly! always object!)
         [], instead { size=, data: [] }
      4. Versioning, api/v1/users
-     5. Paging, Sorting, Filtering (ResponseEntity<Page<User>>) [[paging](https://medium.com/@AlexanderObregon/pagination-performance-testing-in-spring-boot-rest-endpoints-8aedd293c1fb)]
+     5. Paging, Sorting, Filtering (ResponseEntity<Page<User>>)  [[paging](https://medium.com/@AlexanderObregon/pagination-performance-testing-in-spring-boot-rest-endpoints-8aedd293c1fb)]  
      6. ResponseEntity<DTO> create(@RequestBody DTO) return object when create resource
      7. Documentation, Swagger, Openapi, Schemas
      8. Validation, forgot to use..
