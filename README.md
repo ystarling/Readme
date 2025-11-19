@@ -349,7 +349,8 @@ https://harish-bhattbhatt.medium.com/maintain-backward-compatibility-in-apis-7b7
    - client server architecture based on requests - responses, various response format, flexible, stateless (means all info that needs already in request).
    - Async Rest example [[link](https://sanketdaru.com/blog/polling-model-async-rest-spring-boot/)], [[link](https://github.com/sanketdaru/async-jobs-over-restful-api)], [[link2](https://medium.com/@bubu.tripathy/a-beginners-guide-to-async-processing-in-a-spring-boot-application-a4c785a992f2)], [[responsiveness](https://jackynote.medium.com/optimizing-spring-boot-asynchronous-processing-a-comprehensive-guide-f9437ce3d14d)] [[link](https://www.javacodegeeks.com/2016/06/java-8-completablefuture-vs-parallel-stream.html)]
    - endpoints names example [[link](https://docs.github.com/en/rest/authentication/endpoints-available-for-fine-grained-personal-access-tokens?apiVersion=2022-11-28)]
-   - [[characteristics](https://www.linkedin.com/pulse/characteristics-rest-based-apis-baha-abu-shaqra-phd-dti-uottawa--xyycf)],  [[blog](https://www.knowledgehut.com/blog/programming/rest-api)], [[rest-api-design](https://www.getambassador.io/blog/7-rest-api-design-best-practices)]
+   - [[characteristics](https://www.linkedin.com/pulse/characteristics-rest-based-apis-baha-abu-shaqra-phd-dti-uottawa--xyycf)],  [[blog](https://www.knowledgehut.com/blog/programming/rest-api)], [[rest-api-design](https://www.getambassador.io/blog/7-rest-api-design-best-practices)],
+     [[paging](https://medium.com/@AlexanderObregon/pagination-performance-testing-in-spring-boot-rest-endpoints-8aedd293c1fb)]  
    - Good REST API's:
 ```
      1. plural nouns, /users, /customers
@@ -357,7 +358,7 @@ https://harish-bhattbhatt.medium.com/maintain-backward-compatibility-in-apis-7b7
      3. HTTP status code, error handling, responses (never return collection or map directly! always object!)
         [], instead { size=, data: [] }
      4. Versioning, api/v1/users
-     5. Paging, Sorting, Filtering (ResponseEntity<Page<User>>)  [[paging](https://medium.com/@AlexanderObregon/pagination-performance-testing-in-spring-boot-rest-endpoints-8aedd293c1fb)]  
+     5. Paging, Sorting, Filtering (ResponseEntity<Page<User>>)
      6. ResponseEntity<DTO> create(@RequestBody DTO) return object when create resource
      7. Documentation, Swagger, Openapi, Schemas
      8. Validation, forgot to use..
