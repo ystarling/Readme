@@ -221,6 +221,7 @@ Authorization determines what resources a user can access.
    - https://medium.com/@Lakshitha_Fernando/spring-boot-unit-testing-for-repositories-controllers-and-services-using-junit-5-and-mockito-def3ff5891be
    - https://github.com/elkamphy/kloudly-tutorials/blob/master/spring-boot/spring-boot-rest/src/main/java/com/kloudly/springbootrest/controllers/ProductController.java
    - etc
+   - How to run asynchromous tasks: @Async, CompleatableFuture, ListenerFuture
 4. DATABASE
    - NoSql vs RDBMs, NoSQL(high velocity-speed, high handle volume data). [[link](https://www.geeksforgeeks.org/difference-between-relational-database-and-nosql/)]
    - ACID, transaction, isolation levels, anomalies, indexes?
