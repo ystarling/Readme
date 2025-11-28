@@ -83,7 +83,7 @@
              }
          }
        ```
-     - Thread safe, DeadLock?
+     - Thread safe, DeadLock? [[interview questions](https://dev.to/krishna7852/50-interview-questions-on-multithreading-with-answers-2f8n)]
      - volatile, use fast main memory, shared and visible for threads
      - Lock interface, locking, synchronize block
      - How to use Semaphor instead of ReadWriteLock, ReentrantLock
