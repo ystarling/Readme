@@ -176,7 +176,6 @@
      - Remember most usage patterns: Observer, Decorator, Iterator, Builder, Strategy(lambda!)
      - BandOf4 patterns? what you use? Observer, Proxy, Iterator vs Iterable? Adapter, Decorator, Facade.
      - Decorator pattern(structural), decor. [[link](https://medium.com/analytics-vidhya/simplify-strategy-using-lambda-expression-40195d1445ea)]
-     - https://refactoring.guru/
      - Why Singleton is anti-pattern? [[link](https://medium.com/aia-sg-techblog/why-singleton-pattern-is-considered-as-anti-design-pattern-c81dd8b7e757)]
 Violating Single Responsibility Principle :
 Single Responsibility Principle states that every class should have a single task to do.
@@ -440,6 +439,7 @@ It is important to establish a data retention policy that defines how long data 
    - etc
 9. Clean Code and Uncle Bob, Craftmanship, Refactoring
    - code refactoring how to? Better organization, Less code duplication, Easier maintenance, understandable, readable, structured, documented
+   - https://refactoring.guru/
    - code challenge -thinking simply not complex.
    - Code review: [[clean code](https://www.youtube.com/watch?v=wSDyiEjhp8k)]
    - time complexity Big On, [[link](https://aaronice.gitbook.io/lintcode/linked_list)], [[link](https://flexiple.com/algorithms/big-o-notation-cheat-sheet/)]  
