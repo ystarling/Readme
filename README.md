@@ -200,6 +200,19 @@ Difficult to Test. Tight Coupling.
    - IntelijIDEA shortcuts repeat!
    - etc
    - Kotlin vs Java, syntax, null safety, functional programming
+   - Java new features: 
+     - 17
+       - Sealed classes, provide control over class or interface extensions
+       - Switch Pattern matching. Instead of writing multiple if-else conditions to match different patterns, you can now directly incorporate the patterns within the switch cases.
+     - 21
+       - Virtual Threads
+       - Record patterns
+       - Scoped values
+       - Sequenced Collection
+     - 25
+       - Compact source files
+       - Instance Main methods
+       - Module Import Declarations
 3. SPRING
    - Spring vs SpringBoot
    - Dependency injection?
