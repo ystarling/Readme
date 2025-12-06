@@ -199,7 +199,6 @@ Difficult to Test. Tight Coupling.
      - etc
    - IntelijIDEA shortcuts repeat!
    - etc
-   - Kotlin vs Java, syntax, null safety, functional programming
    - Java new features: 
      - 17
        - Sealed classes, provide control over class or interface extensions
@@ -626,26 +625,17 @@ https://www.gettex.de/en/etfs/
     - etc
     - 
 
-22. Kotlin
+21. Kotlin
     - video links [[link1](https://www.youtube.com/watch?v=i-kyPp1qFBA)], [[link2](https://www.youtube.com/watch?v=iYrgWO2oibY)], [[link3](https://www.youtube.com/watch?v=renRJnDtfxc)], [[inline](https://www.youtube.com/watch?v=T9sAlxqYFYc)]
+    - Kotlin vs Java, syntax, null safety, functional programming
     - e
-    - e
-
-23. Code refactoring
-    - Question 1:
-      You have in a method too much If-Statements. What can you do, to make it more readable/extendable?
-      [[link](https://blog.beyondthecloud.dev/blog/beyond-if-statements-ways-to-avoid-ifs)}]
-      Use Polymorphism / Strategy Pattern, Use a Map of Functions / Command Pattern, Use Enum With Behavior  
-    - Question 2:
-      You have a constructor with a big parameterlist what can you do to make it more readable? Builder
-    - s
-    - 
-24. Kafka
+      
+22. Kafka
     - To scale Kafka, use horizontal scaling by adding brokers to the cluster and adjust the number of partitions to match your consumer needs. Additionally, optimize performance by batching messages, enabling compression, and proactively monitoring the cluster for bottlenecks.  
     - Kafka message batching is a process where a producer groups multiple messages together into a single request to the broker, improving throughput by reducing network and I/O overhead. It can be configured by a maximum batch size (e.g., in bytes) or a maximum wait time (e.g., in milliseconds), which determines when a batch is sent even if it isn't full. This process can also be combined with compression for further efficiency.
     - d
     - 
-25. Code challange
+23. Code challange
     - recursive list
     ```
          /**
@@ -684,4 +674,27 @@ https://www.gettex.de/en/etfs/
     - s
     - s
     - 
-26.  
+24. Code refactoring
+    - Question 1:  
+      You have in a method too much If-Statements. What can you do, to make it more readable/extendable?
+      [[link](https://blog.beyondthecloud.dev/blog/beyond-if-statements-ways-to-avoid-ifs)]
+      Use Polymorphism / Strategy Pattern, Use a Map of Functions / Command Pattern, Use Enum With Behavior  
+    - Question 2:  
+      You have a constructor with a big parameterlist what can you do to make it more readable? Builder
+    - s
+    - Null checks with Optional
+      - Traditional
+        ```
+            if (user != null && user.getEmail() != null){
+               String email = user.getEmail().toLowerCase() ;
+               System.out.println(email);
+            }
+        ```
+      - Optional approach
+        ```
+            Optional.ofNullable(user)
+              .map(User::getEmail)
+              .map(String::toLowerCase)
+              .ifPresent (System.out::println);
+        ```
+      - 
